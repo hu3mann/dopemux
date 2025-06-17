@@ -1,0 +1,266 @@
+[
+  {
+    "file": "\ud83d\udc8aD\u00d8PEM\u00dcX-\u2620\ufe0fUBERSLICER\u2620\ufe0f\u2014TFE-DEVLOG.txt",
+    "size": 108,
+    "sha256": "bf23ad6f58117dedd4ba71abef858b0afecddad687846f396574683962359310",
+    "modified": "2025-06-16T21:40:14.579755"
+  },
+  {
+    "file": "pyproject.toml",
+    "size": 529,
+    "sha256": "5da1d87af9027ca9800ff441d409eecf53e6170a766d0cfd6b9a47e4882b68a6",
+    "modified": "2025-06-16T21:24:16.162383"
+  },
+  {
+    "file": "uberslicer-manifest.yaml",
+    "size": 809,
+    "sha256": "7ae6b4b81c61050f221d08bfc3be09a52253cb30cbbecd798d85c41433493498",
+    "modified": "2025-06-17T06:14:35.974773"
+  },
+  {
+    "file": "config.yaml",
+    "size": 470,
+    "sha256": "9eb7290102744576cd3e88d99b4321babbd47ca4ea0fbae99cc4b2b03020c95e",
+    "modified": "2025-06-16T21:35:28.445849"
+  },
+  {
+    "file": "uberslicer-all.txt",
+    "size": 10966,
+    "sha256": "960028b14526d8dcdd74a746f4a8a9bc6205f160d83558fe1c07928c57ee1879",
+    "modified": "2025-06-17T06:14:35.981721"
+  },
+  {
+    "file": "cli.py",
+    "size": 2757,
+    "sha256": "50f1833e1bc5acd5788efbc68165d99baa158fd610486471ed29ec72935771ec",
+    "modified": "2025-06-17T06:07:49.956539"
+  },
+  {
+    "file": "\ud83d\udc8aD\u00d8PEM\u00dcX-\u2620\ufe0fUBERSLICER\u2620\ufe0f\u2014TFE-AUDIT-ULTRA-RITUAL.txt",
+    "size": 162,
+    "sha256": "c145be09a863e40299bf6b88fe13091a2ce263f26bd367f9081d7b1b5b357422",
+    "modified": "2025-06-16T21:40:14.579983"
+  },
+  {
+    "file": "manifest.json",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": "2025-06-17T07:46:51.003544"
+  },
+  {
+    "file": "manifest-gen.py",
+    "size": 1338,
+    "sha256": "f0a730b06f600fa107230b8c975878c4c4184c73aaac0d2477daac6675326051",
+    "modified": "2025-06-16T21:16:04.871866"
+  },
+  {
+    "file": "EXPORT-PROJECT.sh",
+    "size": 2320,
+    "sha256": "abcc10a7f38e035636501b819980232a681ee4eaeb5e96545c6278dd1c1a1c64",
+    "modified": "2025-06-16T21:50:43.760439"
+  },
+  {
+    "file": "local_manifest1.md",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified": "2025-06-17T06:07:06.835343"
+  },
+  {
+    "file": "patches/dopemux_patch.patch",
+    "size": 2249,
+    "sha256": "a214e40cf0e95c01ce66214ea28347ba713a80f96775e2616c2eda8f61952688",
+    "modified": "2025-06-16T20:42:23.209907"
+  },
+  {
+    "file": "patches/add-cli-helpers.patch",
+    "size": 1407,
+    "sha256": "8dd2985979a315ddba200bc7a281e7baf09952571834812673b6b88ada2da76b",
+    "modified": "2025-06-16T21:19:35.721341"
+  },
+  {
+    "file": "tests/test_patch_flow.py",
+    "size": 661,
+    "sha256": "3137f7992d58b0b4d2b842c0dafa5414ebe6d736e3f3d0317a52640598835b5c",
+    "modified": "2025-06-16T20:25:22.639657"
+  },
+  {
+    "file": "tagged/patched/patch-9439c6c8-401e-4214-9c91-e774caa3e3c4.yaml",
+    "size": 229,
+    "sha256": "5436cda8e671d01e6266cf61e6c070563fbb6f64e3bbcf6ecfada7dd4914c71d",
+    "modified": "2025-06-16T21:40:14.579491"
+  },
+  {
+    "file": "schema/prompt.json",
+    "size": 158,
+    "sha256": "34d4deff6a94f9e63c9122583ad8305f8047db107b7e6ff838e1cd7f2087e7f0",
+    "modified": "2025-06-17T06:10:26.374316"
+  },
+  {
+    "file": "schema/extraction-schema.json",
+    "size": 581,
+    "sha256": "8e9c4cb741cc97ef396d040851b7b094093f73917b41a1e0f445eedef4a5b663",
+    "modified": "2025-06-16T20:26:48.581851"
+  },
+  {
+    "file": "schema/project_omnibus.json",
+    "size": 302,
+    "sha256": "7969f1777d085dfd978d368af0cd4f065f96b2944021dc830cb775ffeeac5c53",
+    "modified": "2025-06-17T06:10:26.374391"
+  },
+  {
+    "file": "schema/devlog.json",
+    "size": 153,
+    "sha256": "2702fbb1d2c3957df781bcba67f5568800e80905d63f60c79986c7a312b8a7c4",
+    "modified": "2025-06-17T06:10:26.374164"
+  },
+  {
+    "file": "schema/schemas.yaml",
+    "size": 1506,
+    "sha256": "a4e1f82fe3182958fdac48f0e500e6fbc3e7326f90ad4841296ee235433034b0",
+    "modified": "2025-06-17T06:03:57.324730"
+  },
+  {
+    "file": "schema/omnibus.json",
+    "size": 354,
+    "sha256": "32d3974c6633462c3393fd44e4fe0235310b754cbf3e41b8b524c835f54f82cc",
+    "modified": "2025-06-17T06:10:26.374085"
+  },
+  {
+    "file": "schema/ultraslice.json",
+    "size": 402,
+    "sha256": "b97cc9b2915f6f6c05a15eb570fad508bafe498f96005cb0c5470f15c2f43632",
+    "modified": "2025-06-17T06:10:26.373974"
+  },
+  {
+    "file": "schema/artifact.json",
+    "size": 189,
+    "sha256": "20e386ebb85f809f1b98972cc9802854b9771c561d9f6c585963a0f9a3142799",
+    "modified": "2025-06-17T06:10:26.374242"
+  },
+  {
+    "file": "logs/devlog,json",
+    "size": 356,
+    "sha256": "c21178807f615ff72fd45bf6703e87e26adc601c4610b0b66f6602402ebec6ae",
+    "modified": "2025-06-16T20:18:10.029862"
+  },
+  {
+    "file": "scripts/split_yaml_to_json.py",
+    "size": 509,
+    "sha256": "15acf43d976bac74d0ac636a6b6c2dff7f10e48382b9a93fe5682d3ded941d31",
+    "modified": "2025-06-17T06:10:23.289514"
+  },
+  {
+    "file": "scripts/generate-manifest.py",
+    "size": 3142,
+    "sha256": "1af53cc98295aa3b45bf52d96f4be0c9ad1c9e5f9483c1a759e792cb6043bd8a",
+    "modified": "2025-06-17T07:44:24.905055"
+  },
+  {
+    "file": "venv/pyvenv.cfg",
+    "size": 349,
+    "sha256": "b16560fe8343b4b8c790f1205b88a5a3d33d837c5171aaf28f1d5e8861b80fe4",
+    "modified": "2025-06-17T07:44:42.818606"
+  },
+  {
+    "file": "venv/.gitignore",
+    "size": 69,
+    "sha256": "36692e1840f82f75adce103fd03e65b1eaa35f798c885b3b545e3abc14ffcbf0",
+    "modified": "2025-06-17T07:44:42.818319"
+  },
+  {
+    "file": "venv/bin/Activate.ps1",
+    "size": 9031,
+    "sha256": "eb8ce20f580877d300c4fed60a7f36daa18715d35c50bb3596d6995d023b4ffe",
+    "modified": "2025-06-11T08:36:57"
+  },
+  {
+    "file": "venv/bin/python3",
+    "size": 52640,
+    "sha256": "a1f6d9dc20d4787a84dc2fe782094a7bac5946f49a962aa0af48a02f0e8d5bc5",
+    "modified": "2025-06-14T03:28:32.858893"
+  },
+  {
+    "file": "venv/bin/pip3.13",
+    "size": 250,
+    "sha256": "629a6b2c2d2cc31b27e659d6f98bfc84401d49863d33e6df0f29a31423f16017",
+    "modified": "2025-06-17T06:09:39.327869"
+  },
+  {
+    "file": "venv/bin/python",
+    "size": 52640,
+    "sha256": "a1f6d9dc20d4787a84dc2fe782094a7bac5946f49a962aa0af48a02f0e8d5bc5",
+    "modified": "2025-06-14T03:28:32.858893"
+  },
+  {
+    "file": "venv/bin/pip3",
+    "size": 250,
+    "sha256": "629a6b2c2d2cc31b27e659d6f98bfc84401d49863d33e6df0f29a31423f16017",
+    "modified": "2025-06-17T06:09:39.327754"
+  },
+  {
+    "file": "venv/bin/activate.fish",
+    "size": 2192,
+    "sha256": "40fa1c730fbc26ce4b3defc833e14ec1b16f67a5963b17c423d3ab4085003f45",
+    "modified": "2025-06-17T07:44:43.492303"
+  },
+  {
+    "file": "venv/bin/pip",
+    "size": 250,
+    "sha256": "629a6b2c2d2cc31b27e659d6f98bfc84401d49863d33e6df0f29a31423f16017",
+    "modified": "2025-06-17T06:09:39.327621"
+  },
+  {
+    "file": "venv/bin/activate",
+    "size": 2174,
+    "sha256": "14c2ad7270db02b84e34e71e78a0b2b35dc2f20773df60b95c7a0f2b92ab621c",
+    "modified": "2025-06-17T07:44:43.492444"
+  },
+  {
+    "file": "venv/bin/python3.13",
+    "size": 52640,
+    "sha256": "a1f6d9dc20d4787a84dc2fe782094a7bac5946f49a962aa0af48a02f0e8d5bc5",
+    "modified": "2025-06-14T03:28:32.858893"
+  },
+  {
+    "file": "venv/bin/activate.csh",
+    "size": 921,
+    "sha256": "02c1ba9ae1708fa69bbbcb01ba6f34599b0f68c64fe4d22bbb5253c5a73741ba",
+    "modified": "2025-06-17T07:44:43.491435"
+  },
+  {
+    "file": "uberslicer/validator.py",
+    "size": 1328,
+    "sha256": "e6cd921760b98eb9b6446725adab8cf3ea4f6b550de9777483fa18529322264c",
+    "modified": "2025-06-16T21:30:41.010898"
+  },
+  {
+    "file": "uberslicer/patch.py",
+    "size": 1732,
+    "sha256": "3a491d06fbdf9742e9be2a561659a8cdeb374ff9d68a208e130a94671ba5a75b",
+    "modified": "2025-06-16T21:40:09.299222"
+  },
+  {
+    "file": "uberslicer/__init__.py",
+    "size": 414,
+    "sha256": "d0562442e0404515e3fd4b0ee66c2577b022dd62260720b764bfd92b2a9640af",
+    "modified": "2025-06-16T21:09:15.846469"
+  },
+  {
+    "file": "uberslicer/ultraslicer.py",
+    "size": 2218,
+    "sha256": "03130697fa4f1dc01871bdc2e142c3cfd3a0a850f55164f3af8f3ba0ad725281",
+    "modified": "2025-06-16T21:28:08.814837"
+  },
+  {
+    "file": "uberslicer/utils.py",
+    "size": 2373,
+    "sha256": "1592c2880d715f418f056ddbc0354c96d03ec6c6a4c5d3e50f014a00ecfb72c2",
+    "modified": "2025-06-16T21:30:33.868573"
+  },
+  {
+    "file": "uberslicer/doctor.py",
+    "size": 2237,
+    "sha256": "ae42433724f398a12597be9085e31f1fa22aa3793663efa6604055cfc91906ad",
+    "modified": "2025-06-16T21:30:50.024274"
+  }
+]

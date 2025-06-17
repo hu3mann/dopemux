@@ -1,5 +1,5 @@
 import click
-import yaml
+import pyyaml
 import os
 import random
 from uberslicer.utils import load_config, colorize, print_banner, dopamine_nudge

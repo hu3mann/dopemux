@@ -1,19 +1,21 @@
 """
-dopemux_doctor — Sanity checker for folder layout, config keys, and required files.
-
-Usage:
-    dopemux doctor
+Sanity checker for folder layout, config keys, and required files.
+Called via `dopemux doctor`.
 """
 
 from pathlib import Path
 import yaml
 import sys
 
+# Match your config.yaml structure
 REQUIRED_CONFIG_KEYS = [
     "dopemux.paths.tagged",
     "dopemux.paths.patch_dir",
-    "dopemux.paths.logs",
+    "dopemux.paths.outputs",
+    "dopemux.paths.devlog",
+    "dopemux.paths.audit",
     "dopemux.schema.file",
+    "dopemux.auditor.block_review_tag",
 ]
 
 REQUIRED_DIRS = [
@@ -43,13 +45,14 @@ def load_cfg():
         sys.exit(1)
 
 def check_keys(cfg):
+    # flatten nested dict to dot-keys
     flat = {}
     def _flatten(prefix, mapping):
         for k, v in mapping.items():
-            new_key = f"{prefix}.{k}" if prefix else k
-            flat[new_key] = v
+            key = f"{prefix}.{k}" if prefix else k
+            flat[key] = v
             if isinstance(v, dict):
-                _flatten(new_key, v)
+                _flatten(key, v)
     _flatten("", cfg)
     missing = [k for k in REQUIRED_CONFIG_KEYS if k not in flat]
     if missing:
@@ -87,6 +90,5 @@ def run_diagnosis() -> None:
     warn("Doctor check failed — fix the ❌ items above.")
     sys.exit(1)
 
-# When called by `python -m uberslicer.doctor`
 if __name__ == "__main__":
     run_diagnosis()

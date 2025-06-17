@@ -2,12 +2,12 @@ dopemux:
   filth_level: terminal_goblin
   paths:
     tagged: "./tagged"
-    patch_dir: "./tagged/patch"
+    patch_dir: "./tagged/patched"
     outputs: "./outputs"
     devlog: "./logs/devlog.json"
     audit: "./logs/audit.json"
   schema:
-    file: "./schema/extraction-schema.json"
+    file: "/Users/hu/code/DØPEMÜX/schema/extraction_schema.json"
   auditor:
     block_review_tag: "needs-review"
   colors:
