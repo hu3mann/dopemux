@@ -4,7 +4,7 @@ import datetime
 import os
 import yaml
 from pathlib import Path
-from uberslicer.utils import load_config, log_dev, log_audit
+from utils import load_config, log_dev, log_audit
 
 
 def create_patch_block(oldfile: str, newfile: str, reason: str) -> None:

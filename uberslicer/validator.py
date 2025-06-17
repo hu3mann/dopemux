@@ -1,6 +1,6 @@
 import yaml, json, sys, glob
 from pathlib import Path
-from uberslicer.utils import log_audit, load_config
+from utils import log_audit, load_config
 
 CFG = load_config()
 SCHEMA_PATH = Path(CFG["schema"]["file"])
