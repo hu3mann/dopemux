@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import os, sys, uuid, yaml, datetime
-from uberslicer.utils import log_dev, log_audit
+from utils import log_dev, log_audit
 
 SCHEMA_FIELDS = [
     "session_metadata", "source", "block_id", "tags", "content",
