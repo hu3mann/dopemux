@@ -54,7 +54,7 @@ def walk_dir(root, max_depth=None):
                 print(f"Error reading {fpath}: {e}")
     return manifest
 
-def write_all_files(manifest, root, output_path="all-files.md"):
+def write_all_files(manifest, root, output_path="dopemux-all-files.md"):
     with open(output_path, "w") as out:
         for entry in manifest:
             file_path = os.path.join(root, entry["file"])
@@ -71,7 +71,7 @@ def main():
     parser.add_argument('root', help='Root directory to scan')
     parser.add_argument('--depth', type=int, default=None, help='Maximum recursion depth')
     parser.add_argument('-o', '--output', default='manifest.json', help='Output JSON file')
-    parser.add_argument('--all-md', default='all-files.md', help='Output concatenated markdown file')
+    parser.add_argument('--all-md', default='dopemux-all-files.md', help='Output concatenated markdown file')
     args = parser.parse_args()
 
     manifest = walk_dir(args.root, args.depth)
