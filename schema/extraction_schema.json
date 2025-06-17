@@ -1,0 +1,20 @@
+{
+  "title": "UltraBlock",
+  "type": "object",
+  "required": [
+    "project","block_id","session_metadata","content",
+    "tags","summary","map_refs","decisions",
+    "blockers","meta_validation","dopaminehit","ritual_notes"
+  ],
+  "properties": {
+    "project": { "type": "string" },
+    "block_id": { "type": "string" },
+    "session_metadata": {
+      "type": "object",
+      "required": ["timestamp","source_file"]
+    },
+    "content": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "patch_type": { "type": "string" }           
+}
+}

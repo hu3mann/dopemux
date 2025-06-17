@@ -1,0 +1,26 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dopemux"
+version = "0.1.0"
+description = "Terminal-native, forensic context engine with dopamine rituals."
+authors = [{name = "Your Name", email = "you@example.com"}]
+dependencies = [
+  "click>=8.1",
+  "pyyaml>=6.0",
+  "pydantic>=2.0",
+]
+
+[project.scripts]
+dopemux = "cli:cli"
+
+[tool.setuptools]
+py-modules = ["cli"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uberslicer", "uberslicer.*"]
