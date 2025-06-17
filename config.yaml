@@ -7,7 +7,7 @@ dopemux:
     devlog: "./logs/devlog.json"
     audit: "./logs/audit.json"
   schema:
-    file: "/Users/hu/code/DØPEMÜX/schema/extraction_schema.json"
+    file: "./schema/extraction-schema.json"
   auditor:
     block_review_tag: "needs-review"
   colors:
