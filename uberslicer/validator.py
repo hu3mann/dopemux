@@ -1,7 +1,7 @@
 from pydantic import BaseModel, ValidationError
 import yaml, json, sys, glob
 from pathlib import Path
-from uberslicer.utils import log_audit, CFG
+from utils import log_audit, CFG
 
 SCHEMA_PATH = Path(CFG["schema"]["file"])
 SCHEMA = json.loads(SCHEMA_PATH.read_text())

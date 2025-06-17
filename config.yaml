@@ -1,22 +1,16 @@
-dopemux:
-  filth_level: terminal_goblin
-  paths:
-    tagged: "./tagged"
-    patch_dir: "./tagged/patched"
-    outputs: "./outputs"
-    devlog: "./logs/devlog.json"
-    audit: "./logs/audit.json"
-  schema:
-    file: "./schema/extraction-schema.json"
-  auditor:
-    block_review_tag: "needs-review"
-  colors:
-    dopamine: cyan
-    filth: magenta
-
-# -- ensure these directories exist --
-auditor_dirs:
-- "tagged"
-- "tagged/patch"
-- "logs"
-- "schema"
+{
+  "dopemux": {
+    "filth_level": "terminal_goblin",
+    "paths": {
+      "tagged": "./tagged",
+      "patch_dir": "./tagged/patched",
+      "outputs": "./outputs",
+      "devlog": "./logs/devlog.json",
+      "audit": "./logs/audit.json"
+    },
+    "schema": {"file": "./schema/extraction-schema.json"},
+    "auditor": {"block_review_tag": "needs-review"},
+    "colors": {"dopamine": "cyan", "filth": "magenta"}
+  },
+  "auditor_dirs": ["tagged", "tagged/patch", "logs", "schema"]
+}

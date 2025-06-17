@@ -19,7 +19,7 @@ dependencies = [
 dopemux = "cli:cli"
 
 [tool.setuptools]
-py-modules = ["cli"]
+py-modules = ["cli", "utils"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
