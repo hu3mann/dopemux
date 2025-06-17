@@ -1,21 +1,21 @@
 [
   {
-    "file": "\ud83d\udc8aD\u00d8PEM\u00dcX-\u2620\ufe0fUBERSLICER\u2620\ufe0f\u2014TFE-DEVLOG.txt",
+    "file": "all-files.md",
+    "size": 211955,
+    "sha256": "bff741c2f446aa967edb5406deed1c034d45755a63e531b7c27280054de1c6af",
+    "modified": "2025-06-17T08:36:16.919927"
+  },
+  {
+    "file": "TFE-DEVLOG.txt",
     "size": 108,
     "sha256": "bf23ad6f58117dedd4ba71abef858b0afecddad687846f396574683962359310",
     "modified": "2025-06-16T21:40:14.579755"
   },
   {
     "file": "pyproject.toml",
-    "size": 529,
-    "sha256": "5da1d87af9027ca9800ff441d409eecf53e6170a766d0cfd6b9a47e4882b68a6",
-    "modified": "2025-06-16T21:24:16.162383"
-  },
-  {
-    "file": "uberslicer-manifest.yaml",
-    "size": 809,
-    "sha256": "7ae6b4b81c61050f221d08bfc3be09a52253cb30cbbecd798d85c41433493498",
-    "modified": "2025-06-17T06:14:35.974773"
+    "size": 566,
+    "sha256": "76e32253bca4c2e05e4a1bfa1a50b712ac0266cf2df7c7eba8a8196fb93d66d1",
+    "modified": "2025-06-17T07:57:54.572248"
   },
   {
     "file": "config.yaml",
@@ -24,58 +24,22 @@
     "modified": "2025-06-16T21:35:28.445849"
   },
   {
-    "file": "uberslicer-all.txt",
-    "size": 10966,
-    "sha256": "960028b14526d8dcdd74a746f4a8a9bc6205f160d83558fe1c07928c57ee1879",
-    "modified": "2025-06-17T06:14:35.981721"
-  },
-  {
     "file": "cli.py",
     "size": 2757,
     "sha256": "50f1833e1bc5acd5788efbc68165d99baa158fd610486471ed29ec72935771ec",
     "modified": "2025-06-17T06:07:49.956539"
   },
   {
-    "file": "\ud83d\udc8aD\u00d8PEM\u00dcX-\u2620\ufe0fUBERSLICER\u2620\ufe0f\u2014TFE-AUDIT-ULTRA-RITUAL.txt",
-    "size": 162,
-    "sha256": "c145be09a863e40299bf6b88fe13091a2ce263f26bd367f9081d7b1b5b357422",
-    "modified": "2025-06-16T21:40:14.579983"
-  },
-  {
     "file": "manifest.json",
     "size": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "modified": "2025-06-17T07:46:51.003544"
+    "modified": "2025-06-17T09:12:20.948292"
   },
   {
-    "file": "manifest-gen.py",
-    "size": 1338,
-    "sha256": "f0a730b06f600fa107230b8c975878c4c4184c73aaac0d2477daac6675326051",
-    "modified": "2025-06-16T21:16:04.871866"
-  },
-  {
-    "file": "EXPORT-PROJECT.sh",
-    "size": 2320,
-    "sha256": "abcc10a7f38e035636501b819980232a681ee4eaeb5e96545c6278dd1c1a1c64",
-    "modified": "2025-06-16T21:50:43.760439"
-  },
-  {
-    "file": "local_manifest1.md",
-    "size": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "modified": "2025-06-17T06:07:06.835343"
-  },
-  {
-    "file": "patches/dopemux_patch.patch",
-    "size": 2249,
-    "sha256": "a214e40cf0e95c01ce66214ea28347ba713a80f96775e2616c2eda8f61952688",
-    "modified": "2025-06-16T20:42:23.209907"
-  },
-  {
-    "file": "patches/add-cli-helpers.patch",
-    "size": 1407,
-    "sha256": "8dd2985979a315ddba200bc7a281e7baf09952571834812673b6b88ada2da76b",
-    "modified": "2025-06-16T21:19:35.721341"
+    "file": "TFE-AUDIT-ULTRA-RITUAL.txt",
+    "size": 162,
+    "sha256": "c145be09a863e40299bf6b88fe13091a2ce263f26bd367f9081d7b1b5b357422",
+    "modified": "2025-06-16T21:40:14.579983"
   },
   {
     "file": "tests/test_patch_flow.py",
@@ -154,6 +118,12 @@
     "size": 3142,
     "sha256": "1af53cc98295aa3b45bf52d96f4be0c9ad1c9e5f9483c1a759e792cb6043bd8a",
     "modified": "2025-06-17T07:44:24.905055"
+  },
+  {
+    "file": "scripts/EXPORT-PROJECT.sh",
+    "size": 2320,
+    "sha256": "abcc10a7f38e035636501b819980232a681ee4eaeb5e96545c6278dd1c1a1c64",
+    "modified": "2025-06-16T21:50:43.760439"
   },
   {
     "file": "venv/pyvenv.cfg",
