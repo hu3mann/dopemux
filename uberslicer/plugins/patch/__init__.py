@@ -1,5 +1,5 @@
 import click
-from uberslicer.patch import create_patch_block
+from patch import create_patch_block
 
 @click.command()
 @click.argument("oldfile", type=click.Path(exists=True))
