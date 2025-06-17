@@ -216,7 +216,7 @@
     "modified": "2025-06-16T21:09:15.846469"
   },
   {
-    "file": "uberslicer/ultraslicer.py",
+    "file": "uberslicer/uberslicer.py",
     "size": 2218,
     "sha256": "03130697fa4f1dc01871bdc2e142c3cfd3a0a850f55164f3af8f3ba0ad725281",
     "modified": "2025-06-16T21:28:08.814837"

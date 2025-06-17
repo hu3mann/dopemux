@@ -1,33 +1,37 @@
-from pydantic import BaseModel, ValidationError
 import yaml, json, sys, glob
 from pathlib import Path
-from uberslicer.utils import log_audit, CFG
+from uberslicer.utils import log_audit, load_config
 
+CFG = load_config()
 SCHEMA_PATH = Path(CFG["schema"]["file"])
 SCHEMA = json.loads(SCHEMA_PATH.read_text())
 
-class UltraBlock(BaseModel):
-    project: str
-    block_id: str
-    session_metadata: dict
-    content: str
-    tags: list
-    summary: str | None = None
-    patch_type: str | None = None  # only for patch blocks
+
+class ValidationError(Exception):
+    def __init__(self, errors):
+        self._errors = errors
+    def errors(self):
+        return self._errors
+
+def validate_block(data):
+    missing = [k for k in SCHEMA.get("required", []) if k not in data]
+    if missing:
+        raise ValidationError({"missing": missing})
 
 def validate_all():
     """
     Validate every YAML block under the tagged folder against the UltraBlock schema,
     and also catch any 'patch' blocks still carrying the 'needs-review' tag.
     """
-    paths = glob.glob(f"{CFG['paths']['tagged']}/**/*.yaml", recursive=True)
+    cfg = load_config()
+    paths = glob.glob(f"{cfg['paths']['tagged']}/**/*.yaml", recursive=True)
     bad, pending = 0, 0
 
     for p in paths:
         try:
             data = yaml.safe_load(open(p))
-            UltraBlock(**data)  # will raise on invalid schema
-            if "patch" in data.get("tags", []) and CFG["auditor"]["block_review_tag"] in data.get("tags", []):
+            validate_block(data)
+            if "patch" in data.get("tags", []) and cfg["auditor"]["block_review_tag"] in data.get("tags", []):
                 pending += 1
         except ValidationError as e:
             log_audit("error", {"file": p, "errors": e.errors()})

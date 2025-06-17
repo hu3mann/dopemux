@@ -1,5 +1,7 @@
 import subprocess
 import yaml
+import sys
+from pathlib import Path
 
 def write_config(root):
     (root / "tagged/patch").mkdir(parents=True)
@@ -25,5 +27,10 @@ def write_config(root):
 
 def test_doctor_ok(tmp_path):
     write_config(tmp_path)
-    proc = subprocess.run(["dopemux", "doctor"], cwd=tmp_path, capture_output=True)
+    cli = Path(__file__).resolve().parents[1] / "cli.py"
+    proc = subprocess.run([
+        sys.executable,
+        str(cli),
+        "doctor",
+    ], cwd=tmp_path, capture_output=True)
     assert proc.returncode == 0

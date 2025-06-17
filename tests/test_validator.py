@@ -1,5 +1,6 @@
 import yaml
 import subprocess
+import sys
 from pathlib import Path
 
 
@@ -37,5 +38,10 @@ def test_validate_ok(tmp_path: Path):
     }
     with open(tmp_path / "tagged" / "one.yaml", "w") as f:
         yaml.dump(block, f)
-    proc = subprocess.run(["dopemux", "validate"], cwd=tmp_path, capture_output=True)
+    cli = Path(__file__).resolve().parents[1] / "cli.py"
+    proc = subprocess.run([
+        sys.executable,
+        str(cli),
+        "validate",
+    ], cwd=tmp_path, capture_output=True)
     assert proc.returncode == 0

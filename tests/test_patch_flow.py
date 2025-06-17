@@ -1,5 +1,7 @@
 import yaml
 import subprocess
+import sys
+from pathlib import Path
 
 
 def test_patch_block(tmp_path):
@@ -28,10 +30,16 @@ def test_patch_block(tmp_path):
         }
     }
     (tmp_path / "config.yaml").write_text(yaml.dump(cfg))
+    cli = Path(__file__).resolve().parents[1] / "cli.py"
     patch = subprocess.run([
-        "dopemux", "patch", str(old),
-        "--new", str(new),
-        "--reason", "unit test"
+        sys.executable,
+        str(cli),
+        "patch",
+        str(old),
+        "--new",
+        str(new),
+        "--reason",
+        "unit test",
     ], cwd=tmp_path, capture_output=True, text=True)
     assert patch.returncode == 0
     files = list(tagdir.glob("*.yaml"))

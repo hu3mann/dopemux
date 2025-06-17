@@ -1,5 +1,8 @@
 import importlib, yaml, pathlib
 from uberslicer.utils import log_dev
+from . import uberslicer as slicer
+
+__all__ = ["slicer", "load_plugins"]
 
 PLUGIN_DIR = pathlib.Path("plugins")
 

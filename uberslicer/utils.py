@@ -55,4 +55,3 @@ def log_audit(level, summary):
     _append_block(AUDIT_PATH, block)
 
 # ─── GLOBAL CONFIG REFERENCE ────────────────────────────────────────────────
-CFG = load_config()
