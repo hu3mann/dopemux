@@ -22,13 +22,13 @@ def slice_blocks(input_path):
     for i, content in enumerate(blocks):
         block_id = f"block-{uuid.uuid4()}"
         ritual = {
-            **ritual_header(block_id, f"UltraSlice {i+1}"),
+            **ritual_header(block_id, f"UberSlice {i+1}"),
             "session_metadata": {
                 "timestamp": datetime.datetime.utcnow().isoformat(),
                 "source_file": os.path.basename(input_path)
             },
-            "source": input_path,
-            "tags": ["ultraslice", "auto", "needs-review"],
+            "source": str(input_path),
+            "tags": ["uberslice", "auto", "needs-review"],
             "content": content,
             "map_refs": [],
             "decisions": [],
@@ -50,11 +50,11 @@ def dump_blocks(blocks, outdir):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python dopemux_ultraslicer.py <input_file> <output_dir>")
+        print("Usage: python dopemux_uberslicer.py <input_file> <output_dir>")
         sys.exit(1)
     input_file, outdir = sys.argv[1:3]
     blocks = slice_blocks(input_file)
     dump_blocks(blocks, outdir)
-    log_dev(f"ultraslice", details=[f"Sliced {len(blocks)} blocks from {input_file} to {outdir}"])
+    log_dev(f"uberslice", details=[f"Sliced {len(blocks)} blocks from {input_file} to {outdir}"])
     log_audit("info", f"Sliced file {input_file} into {len(blocks)} blocks.")
     print(f"[OK] Sliced, tagged, and dumped {len(blocks)} ritual blocks to {outdir}.")
