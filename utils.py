@@ -16,7 +16,6 @@ def load_config():
         raise KeyError("config.yaml missing top-level 'dopemux' key")
     return full_cfg["dopemux"]
 
-
 ANSI_CODES = {
     "black": "\033[30m",
     "red": "\033[31m",
@@ -38,7 +37,6 @@ def colorize(text: str, style: str) -> str:
         return text
     return f"{code}{text}{ANSI_CODES['reset']}"
 
-
 def print_banner(cfg):
     """If `banner` is set in config, print it once at startup."""
     banner = cfg.get("banner")
@@ -53,6 +51,7 @@ def dopamine_nudge(cfg):
     """Randomly emit one of the `nudges` defined in config."""
     nudges = cfg.get("nudges", [])
     if nudges:
+
         msg = random.choice(nudges)
         color = cfg.get("colors", {}).get("filth")
         if color:
@@ -60,8 +59,8 @@ def dopamine_nudge(cfg):
         print(msg)
 
 # ────────────────────────────────────────────────────────────────────────────
-
 # Dev/audit logging helpers
+
 DEVLOG_PATH = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-DEVLOG.txt"
 AUDIT_PATH = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-AUDIT-ULTRA-RITUAL.txt"
 
