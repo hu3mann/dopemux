@@ -22,3 +22,8 @@ dopemux doctor
 Configure paths in `config.yaml`. Schema paths are relative so the
 project works anywhere.
 
+## Color output
+
+`utils.colorize()` wraps text with ANSI escape codes. Customize styles in
+`config.yaml` under `dopemux.colors`.
+
