@@ -1,9 +1,10 @@
 💊 DØPEMÜX AGENT LOG
 
-DateEventAgentDetails
-2025-06-17CreatedUltraSlicerSpawned for core extraction.
-2025-06-17CreatedPatchDaemonWatches for drift, punishes entropy.
-2025-06-17CreatedDopamineGoblinSurfaces dopamine spikes/blocks.
-2025-06-17CreatedManifestWardenEnsures outputs, audits drift.
-2025-06-17CreatedUX-ScoldUX oversight, roast mode.
-2025-06-17DecommissionedDeadAgentBotKilled after merge, logs agent deaths.
+| Date | Event | Agent | Details |
+|------|-------|-------|---------|
+| 2025-06-17 | Created | UltraSlicer | Spawned for core extraction. |
+| 2025-06-17 | Created | PatchDaemon | Watches for drift, punishes entropy. |
+| 2025-06-17 | Created | DopamineGoblin | Surfaces dopamine spikes/blocks. |
+| 2025-06-17 | Created | ManifestWarden | Ensures outputs, audits drift. |
+| 2025-06-17 | Created | UX-Scold | UX oversight, roast mode. |
+| 2025-06-17 | Decommissioned | DeadAgentBot | Killed after merge, logs agent deaths. |
