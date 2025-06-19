@@ -23,12 +23,16 @@ bash scripts/setup-env.sh
 
 After running the script you can call the CLI commands normally.
 
+Create a `logs/` directory in your workspace before running commands. The
+application writes `devlog.json` and `audit.json` there but the folder is ignored
+in version control.
+
 ## Layout
 
 - `uberslicer/` - core library modules
 - `schema/` - JSON schemas
 - `tagged/` - generated YAML blocks
-- `logs/` - dev/audit logs
+- `logs/` - dev/audit logs created at runtime (ignored in git)
 
 Configure paths in `config.yaml`. Schema paths are relative so the
 project works anywhere.

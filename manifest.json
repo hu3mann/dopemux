@@ -528,12 +528,6 @@
     "modified": "2025-06-17T06:10:26.374242"
   },
   {
-    "file": "logs/devlog,json",
-    "size": 356,
-    "sha256": "c21178807f615ff72fd45bf6703e87e26adc601c4610b0b66f6602402ebec6ae",
-    "modified": "2025-06-16T20:18:10.029862"
-  },
-  {
     "file": "scripts/split_yaml_to_json.py",
     "size": 509,
     "sha256": "15acf43d976bac74d0ac636a6b6c2dff7f10e48382b9a93fe5682d3ded941d31",
