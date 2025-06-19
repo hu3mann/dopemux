@@ -88,3 +88,24 @@ notes: |
   - Schema is the law; the daemon is judge, jury, and roast executioner.
 
 \033[1;31m☠️  dopemux — Schema law is ritual law. All memory. No mercy. ☠️\033[0m
+
+# ========== v1.5.0 SCHEMA LAW ADDITIONS ==========
+
+manifest_obsession: *see metafile*
+output_integrity: *see metafile*
+self_healing_ritual: *see metafile*
+session_state_pinning: *see metafile*
+self_reflection: *see metafile*
+closing_protocol: *see metafile*
+voice_and_ethos: *see metafile*
+
+schema_update_policy: |
+  All new tags, features, or design patterns must be added here and in metafile.dmpx.
+  Every schema change is versioned and logged.
+  Any drift or ambiguity must trigger a DRIFT ALERT and audit escalation.
+
+compliance:
+  - NO DATA LOSS.
+  - NO SYNTHESIS.
+  - NO UNTAGGED BLOCKS.
+  - NO BREAKING RITUAL.

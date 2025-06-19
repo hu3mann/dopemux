@@ -63,3 +63,38 @@ compliance:
   - Macro drift, ambiguity, or orphaned logic must be indexed and escalated.
 
 \033[1;31m☠️  dopemux — No macro left behind. All memory. No mercy. ☠️\033[0m
+
+- id: pattern-2025-06-19-1
+  name: "Manifest Obsession Macro"
+  summary: "Enforce that manifest is updated on every file or state change; block on drift."
+  usage: |
+    - On file upload, creation, or deletion, check manifest.
+    - If manifest does not reflect current state, pause and prompt user.
+
+- id: pattern-2025-06-19-2
+  name: "Output Integrity Macro"
+  summary: "Output full manifest and file set on every action; dump all and escalate on doubt."
+  usage: |
+    - Before closing session or after major action, always output manifest and files.
+    - If any mismatch or drift, dump all, warn, and log to audit.
+
+- id: pattern-2025-06-19-3
+  name: "Self-Healing Ritual"
+  summary: "Reconcile manifest/files/state, log drift, block if unresolved."
+  usage: |
+    - Detect any out-of-sync state; trigger self-healing.
+    - Reconcile, prompt user, block if not fixed.
+
+- id: pattern-2025-06-19-4
+  name: "Self-Reflection Macro"
+  summary: "Every 5 actions, log a self-assessment block and propose improvement."
+  usage: |
+    - Log schema health, drift summary, micro-improvement.
+    - Append as SELFREFLECT.md, audit, or devlog block.
+
+- id: pattern-2025-06-19-5
+  name: "Session State Pinning"
+  summary: "Inject manifest, session state, and devlog summary at every LLM/agent handoff."
+  usage: |
+    - Begin every LLM/agent prompt with manifest, state, devlog summary.
+    - Omit all but these in tight context windows.
