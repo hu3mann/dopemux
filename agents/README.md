@@ -1,10 +1,11 @@
-💊 DØPEMÜX AGENTS — README
+# DØPEMÜX Agents
 
-Dopemux agents are tracked, logged, and immortalized.
-•Add a new agent: Copy agent-TEMPLATE.md, fill, save as agent-.md
-•Retire agent: Update agents.md and log.md, move file to /archive/
-•Always log changes.
+Welcome to the neon guild of ritual daemons. Each agent is tuned for maximum dopamine and ruthless context management.
 
-Each agent-*.md contains: role, rituals, triggers, quirks, notes.
+## Onboarding
 
-For unicode dopamine: symlink or copy files to emoji names if desired.
+1. Read `agents.md` to know the crew.
+2. Log every ritual in `log.md`.
+3. Run `scripts/symlink_unicode.sh` for emoji symlinks if your OS can handle the filth.
+
+Keep dopamine levels high, watch for burnout, and consult the DopamineDoctor when in doubt.
