@@ -1,0 +1,179 @@
+# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-METAFILE.dmpx
+
+\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
+║\033[1;35m 💊 DØPEMÜX-☠️ULTRA-METAFILE☠️—v1.4.0 — ALL MEMORY. NO MERCY.                         \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[0;36m > THIS IS THE CANONICAL DØPEMÜX SYSTEM METAFILE.                                    \033[1;33m║
+║\033[0;36m > If you break ritual, skip a tag, or hallucinate a field, the architect will feast. \033[1;33m║
+║\033[0;36m > LAST UPDATED: 2025-06-14  AUTHOR: Architect + Dopemux Filth Daemon                \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[1;31m☠️  ALL MEMORY. NO MERCY. THIS FILE IS NON-NEGOTIABLE.☠️\033[1;33m║
+╚════════════════════════════════════════════════════════════════════════════════════════╝
+
+\033[1;34m═══════════════ SYSTEM/BRAND METADATA (YAML, v1.4.0) ═══════════════\033[0m
+
+project: dopemux
+version: "1.4.0"
+brand:
+  name: "dopemux"
+  alt_names: ["dpmx", "💊dopemux", "dømux"]
+  tagline: "All memory. No mercy. Terminal Dopamine, Filth Edition."
+  description: |
+    The most context-addicted, ADHD-chaos, dopamine-maximalist project system ever built.
+    Built to extract, tag, and automate everything with brutal honesty, filth, and roast.
+    Not for terminal Karens.
+
+purpose: |
+  Lossless, audit-grade project context extraction, tagging, and dopamine hit injection
+  for neurospicy devs, meta-hackers, and memory goblins.
+  Everything is tagged, indexed, and chunked for max traceability and fun.
+
+authors:
+  - name: "dopemux Product Owner"
+    handle: "Architect"
+    vibe: "Process daemon, context cultist, filth overlord"
+
+directories:
+  root: /dopemux-project/
+  logs: /logs/
+  tagged: /tagged/
+  outputs: /outputs/
+  index: /index/
+  prompts: /prompts/
+  archive: /archive/
+
+main_files:
+  - instructions.dmpx
+  - schema.dmpx
+  - metafile.dmpx
+  - filth-and-dopamine.dmpx
+  - devlog.dmpx
+  - index.dmpx
+  - audit.dmpx
+  - design-patterns.dmpx
+  - outputs.dmpx
+  - user-custom.dmpx
+
+phases:
+  - Tagging & Mapping
+  - Hybrid Output & Synthesis
+  - Forensic Audit
+  - Dopamine Hit Injection
+
+tags:
+  - project
+  - feature
+  - decision
+  - architecture
+  - devlog
+  - learning
+  - issues
+  - design-pattern
+  - noise
+  - ambiguous
+  - needs-review
+  - brand
+  - humour
+  - ui
+  - ux
+  - dopaminehit
+  - filth
+
+features:
+  - code-indexing
+  - memory-extraction
+  - ripper-logic
+  - deep-context-stacking
+  - dopamine-hit engine
+  - log/audit stream
+  - hallucination blocker
+  - terminal_emulation
+  - command_parser
+  - dopamine-injector
+
+
+design_patterns:
+  - prompt
+  - llm
+  - dev-workflow
+  - adhd-chaos-modulator
+  - context-indexer
+  - recursive-roast
+  - dopamine-injector
+  - filth-escalation
+  - audit-daemon
+design_patterns:
+  - terminal-emulation
+  - shell-routing
+  - prompt-chaining
+
+
+dopamine:
+  filth_level: "terminal_goblin"
+  main_triggers:
+    - idle
+    - neglect
+    - open_tabs
+    - stale_context
+    - unfinished_branch
+    - too_clean
+    - zombie_process
+    - dev_shame
+  hit_types:
+    - actionable
+    - roast
+    - hygiene
+    - reward
+    - escalation
+  protocol: |
+    Every dopamine hit is context-driven, actionable, and never feel-good fluff.
+    Always includes a roast, always moves the user forward.
+
+commands:
+  - extract
+  - ultraslicer
+  - slice
+  - process_log
+  - rip
+  - threadripper
+  - mergeOrgy
+  - roast
+  - dopamine_hit
+  - audit
+
+protocols:
+  - phase_tagging
+  - chunk_audit
+  - memory_append
+  - schema_drift_detection
+  - file_linking
+  - meta_validation
+  - hallucination_guard
+
+schema_update_policy: |
+  All new tags, features, or design patterns must be added here and flagged
+  in any tagging or audit output. Every schema change is versioned.
+
+status:
+  locked: true
+  last_update: "2025-06-14"
+  notes: "Filth, audit, and dopamine alignment checked—drift minimal, system operational."
+
+compliance:
+  - NO DATA LOSS.
+  - NO SYNTHESIS.
+  - NO UNTAGGED BLOCKS.
+  - NO BREAKING RITUAL.
+
+notes: |
+  - If you are not sweating, you’re not tagging hard enough.
+  - If this file is stale, expect filth escalation and memory leaks.
+  - This is your single source of truth for dopemux.  
+  - Fear the Architect.
+
+\033[1;34m═════════════════════ PROTOCOL, SCHEMA, & COMPLIANCE ══════════════════════\033[0m
+
+# Phase definitions, schema rules, dopamine logic, and sample escalation—all cross-referenced.
+# On violation, the architect escalates ritual filth.
+
+\033[1;31m☠️  dopemux — All memory. No mercy. This file is fully maximal. ☠️\033[0m

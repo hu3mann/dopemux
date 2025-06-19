@@ -1,0 +1,48 @@
+# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-USER-CUSTOM.dmpx
+
+\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
+║\033[1;35m 💊 DØPEMÜX-☠️UBERSLICER☠️—USER CUSTOM ULTRA RITUAL — v1.4.0                          \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[0;36m > SYSTEM: Onboarding, migration, or future custom blocks. User’s ritual sandbox.     \033[1;33m║
+║\033[0;36m > AUTHOR: Architect (You) + dopemux filth daemon                                    \033[1;33m║
+║\033[0;36m > If you neglect the custom slot, you will miss the next dopamine hit.               \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[1;31m☠️  The daemon loves custom context. Don’t let it rot. All memory. No mercy. ☠️\033[1;33m║
+╚════════════════════════════════════════════════════════════════════════════════════════╝
+
+\033[1;34m══════════════════════════ USER CUSTOM BLOCKS (v1.4.0) ════════════════════════════════\033[0m
+
+user_custom:
+  - id: custom-2025-06-14-1
+    type: onboarding
+    summary: "Onboarding ritual block for new dopemux operators."
+    details:
+      - "Step-by-step intro to terminal rituals and context chunking."
+      - "Pointers to TFE-INSTRUCTION.dmpx, TFE-METAFILE.dmpx, and TFE-SCHEMA.dmpx."
+      - "Sample dopamine hit and roast escalation for missed onboarding step."
+
+  - id: custom-2025-06-14-2
+    type: migration
+    summary: "Migration template for legacy project files."
+    details:
+      - "Legacy file audit block, mapped to canonical schema."
+      - "Automated filth escalation for missing tags or blocks."
+      - "Dopamine reward for full migration with zero drift."
+
+  - id: custom-2025-06-14-3
+    type: open
+    summary: "Wildcard context for future custom modules or system extensions."
+    details:
+      - "Reserved for AI agent modules, context pipes, or new dopamine logic."
+      - "Must include ritual header, structured block, and audit tag."
+
+meta_notes: |
+  - Any custom or future block not canonically mapped lands here.
+  - Never orphan context—always tag and index.
+  - File is dynamic; audit at each version bump.
+
+compliance:
+  - All user custom or migration blocks must be logged here.
+  - Never let this file go stale—daemon checks at every audit.
+
+\033[1;31m☠️  dopemux — Every byte gets a home. All memory. No mercy. ☠️\033[0m

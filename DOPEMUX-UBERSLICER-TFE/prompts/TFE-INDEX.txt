@@ -1,0 +1,53 @@
+# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-INDEX.dmpx
+
+\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
+║\033[1;35m 💊 DØPEMÜX-☠️UBERSLICER☠️—INDEX ULTRA RITUAL — v1.4.0                                \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[0;36m > SYSTEM: This is your forensic context map and audit pointer table.                 \033[1;33m║
+║\033[0;36m > AUTHOR: Architect (You) + dopemux filth daemon                                    \033[1;33m║
+║\033[0;36m > Every directory, canonical file, and artifact lives here.                          \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[1;31m☠️  Unindexed file = ritual drift = instant dopamine roast. ☠️\033[1;33m║
+╚════════════════════════════════════════════════════════════════════════════════════════╝
+
+\033[1;34m══════════════════════════ FORENSIC DIRECTORY STRUCTURE (v1.4.0) ══════════════════════\033[0m
+
+directories:
+  root: /dopemux-project/
+  logs: /logs/
+  tagged: /tagged/
+  outputs: /outputs/
+  index: /index/
+  prompts: /prompts/
+  archive: /archive/
+
+\033[1;34m══════════════════════════ CANONICAL FILE REFERENCES ══════════════════════════════════\033[0m
+
+main_files:
+  - instructions.dmpx
+  - schema.dmpx
+  - metafile.dmpx
+  - filth-and-dopamine.dmpx
+  - devlog.dmpx
+  - index.dmpx
+  - audit.dmpx
+  - design-patterns.dmpx
+  - outputs.dmpx
+  - user-custom.dmpx
+
+forensic_artifacts:
+  - /index/dopemux_process_trace.dmpx   # Meta-process artifact for live chunk processing
+  - /devlog.dmpx                        # Development and change log
+  - /outputs/                           # Latest hybrid outputs
+  - /tagged/                            # Tagged block snapshots
+
+compliance:
+  - If you add a file, you must add it here.
+  - If you skip a log, the daemon will escalate.
+  - All canonical files must be referenced; no drift, no orphan files.
+
+notes: |
+  - This file maps all project artifacts. Omission = ritual roast.
+  - Always sync to metafile and schema for law and structure.
+
+\033[1;31m☠️  dopemux — Your shame is indexed. All memory. No mercy. ☠️\033[0m

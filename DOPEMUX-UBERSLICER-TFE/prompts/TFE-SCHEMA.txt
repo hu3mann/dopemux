@@ -1,0 +1,90 @@
+# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-SCHEMA.dmpx
+
+\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
+║\033[1;35m 💊 DØPEMÜX-☠️UBERSLICER☠️—SCHEMA ULTRA RITUAL — v1.4.0                               \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[0;36m > SYSTEM: This is the canonical dopemux schema, manifest, and architecture in one.   \033[1;33m║
+║\033[0;36m > AUTHOR: Architect (You) + dopemux filth daemon                                    \033[1;33m║
+║\033[0;36m > For tags, compliance, and protocol, see METAFILE.dmpx.                            \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[1;31m☠️  Schema drift, field omission, or ambiguous logic = instant ritual escalation. ☠️\033[1;33m║
+╚════════════════════════════════════════════════════════════════════════════════════════╝
+
+\033[1;34m═════════════════════════ CANONICAL SCHEMA & MANIFEST (v1.4.0) ═══════════════════════\033[0m
+
+schema:
+  version: "1.4.0"
+  fields_required:
+    - session_metadata
+    - source
+    - block_id
+    - tags
+    - content
+    - summary
+    - map_refs
+    - decisions
+    - blockers
+    - meta_validation
+    - dopaminehit
+    - ritual_notes
+
+  field_law: |
+    All output blocks must include the fields above.
+    If any block is missing a required field, escalate a DRIFT ALERT and flag as #needs-review.
+
+manifest:
+  purpose: |
+    Unify system structure, compliance, and schema law.
+    Enforce maximal, lossless, audit-first context in every file.
+  main_files:
+    - instructions.dmpx
+    - schema.dmpx
+    - metafile.dmpx
+    - filth-and-dopamine.dmpx
+    - devlog.dmpx
+    - index.dmpx
+    - audit.dmpx
+    - design-patterns.dmpx
+    - outputs.dmpx
+    - user-custom.dmpx
+  directory_structure:
+    root: /dopemux-project/
+    logs: /logs/
+    tagged: /tagged/
+    outputs: /outputs/
+    index: /index/
+    prompts: /prompts/
+    archive: /archive/
+
+protocols:
+  - phase_tagging
+  - chunk_audit
+  - memory_append
+  - schema_drift_detection
+  - file_linking
+  - meta_validation
+  - hallucination_guard
+
+pipeline_phases:
+  - Tagging & Mapping (Phase 1)
+  - Hybrid Output & Synthesis (Phase 2)
+  - Forensic Audit (Phase 3)
+  - Dopamine Hit Injection (Phase 4)
+
+schema_update_policy: |
+  All new tags, fields, or patterns must be added to METAFILE.dmpx and this file.
+  All schema updates are logged in devlog and indexed.
+  Any drift or ambiguity must trigger a DRIFT ALERT and audit escalation.
+
+compliance:
+  - NO DATA LOSS.
+  - NO SYNTHESIS.
+  - NO UNTAGGED BLOCKS.
+  - NO BREAKING RITUAL.
+
+notes: |
+  - If this file and METAFILE.dmpx disagree, escalate and resolve immediately.
+  - Every change is logged in devlog and audit files.
+  - Schema is the law; the daemon is judge, jury, and roast executioner.
+
+\033[1;31m☠️  dopemux — Schema law is ritual law. All memory. No mercy. ☠️\033[0m

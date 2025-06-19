@@ -1,0 +1,34 @@
+[project]
+name = "dopemux-ultraslicer"
+version = "1.4.0"
+description = "Dopemux Ultraslicer - schema-locked chunking and devlog ritual"
+authors = [{name = "The Dopemux Team", email = "team@dopemux.io"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai",
+    "pyyaml",
+    "pathspec"
+]
+
+[project.scripts]
+dopemux-ultraslicer = "dopemux_ultraslicer:main"
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["dopemux_ultraslicer"]
+py-modules = [
+    "chunkasaurus",
+    "dopemux_ultraslicer",
+    "dopemux_utils",
+    "extract",
+    "prompts",
+]
+packages = ["dopemux_ultraslicer"]
+
+[tool.setuptools.cmdclass]
+build_py = "dopemux_ultraslicer.build_hooks:BuildWithManifest"

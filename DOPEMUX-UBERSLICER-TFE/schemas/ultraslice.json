@@ -1,0 +1,22 @@
+{
+  "block_id": "",
+  "extraction_phase": "",
+  "block_type": "ultraslice",
+  "summary": "",
+  "session_metadata": {
+    "timestamp": "",
+    "source_file": "",
+    "operator": ""
+  },
+  "source": "",
+  "tags": [],
+  "content": "",
+  "map_refs": [],
+  "decisions": [],
+  "blockers": [],
+  "meta_validation": [],
+  "dopamine": "",
+  "compliance_status": "",
+  "extraction_type": "",
+  "project_id": ""
+}

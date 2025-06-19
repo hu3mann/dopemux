@@ -1,0 +1,10 @@
+dopemux:
+  filth_level: terminal_goblin
+  paths:
+    tagged: ./tagged
+    outputs: ./outputs
+    devlog: ./TFE-DEVLOG.txt
+    audit: ./TFE-AUDIT-ULTRA-RITUAL.txt
+  colors:
+    dopamine: cyan
+    filth: magenta
