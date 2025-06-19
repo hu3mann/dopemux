@@ -1,5 +1,5 @@
 import click
-from doctor import run_diagnosis
+from ...doctor import run_diagnosis
 
 @click.command()
 def run():
