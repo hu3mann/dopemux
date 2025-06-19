@@ -20,4 +20,7 @@
 | ManifestWarden  | Manifest/Output Guard | Manifest drift, output auto-gen, audits  | Active    | 2025-06-17  | Hates entropy.             |
 | UX-Scold        | UX Oversight          | Reviews workflow, triggers human roast   | Beta      | 2025-06-17  | Savage, helpful            |
 | DeadAgentBot    | Decommissioned        | —                                        | Retired   | 2025-06-17  | RIP, killed in merge       |
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
