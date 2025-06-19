@@ -392,9 +392,9 @@ yarn-error.log*
   },
   {
     "file": "all-files.md",
-    "size": 87491,
-    "sha256": "51ba7c2e3074222fac6c76632eac4c29c6c81a356dc868e1218e431b17f64776",
-    "modified": "2025-06-19T04:35:14.177346"
+    "size": 136504,
+    "sha256": "dbfea25ff1ee93ac5774780aabe0b434bef29f50bb50f6fffda3d85a6552637b",
+    "modified": "2025-06-19T05:22:30.456783"
   },
   {
     "file": ".pre-commit-config.yaml",
@@ -440,9 +440,9 @@ yarn-error.log*
   },
   {
     "file": "manifest.json",
-    "size": 8399,
-    "sha256": "2af4938137e13cb71a4b7f0861b0152add7986c6ed2d515c5d38fe1852494c1a",
-    "modified": "2025-06-19T04:35:14.176207"
+    "size": 9378,
+    "sha256": "662bbccc8959bf0ec1db235559713849d4d2678b8654a32d27b35a9e9352621a",
+    "modified": "2025-06-19T05:22:30.455416"
   },
   {
     "file": "TFE-AUDIT-ULTRA-RITUAL.txt",
@@ -457,6 +457,12 @@ yarn-error.log*
     "modified": "2025-06-17T09:49:06.092989"
   },
   {
+    "file": "docs/DopamineRoastAndLogTemplatesmd.md",
+    "size": 3532,
+    "sha256": "c16dabad60bb9268573b508471e956a9d95abae5f93c215755fb48cdcddd3b63",
+    "modified": "2025-06-19T07:22:06.543006"
+  },
+  {
     "file": "docs/dopemux-project-breakdown.md",
     "size": 12969,
     "sha256": "f58cf9464e20f3633c165a3525ba7c624a9aca94b8953948bbe527b68362ca5e",
@@ -466,7 +472,13 @@ yarn-error.log*
     "file": "docs/ultraslicer-product-rundown.md",
     "size": 17321,
     "sha256": "cf5b20ac8aea66112449ca05986ca24db98c6c9598bb9b1c48d87b372064fa86",
-    "modified": "2025-06-19T05:18:08.485551"
+    "modified": "2025-06-19T07:22:33.272252"
+  },
+  {
+    "file": "docs/MUST-BUILD-API-SPEC.md",
+    "size": 5660,
+    "sha256": "fa46aafbb432358ad617184e1e77a6366beb49fad11fb22af0b52a9b290a6803",
+    "modified": "2025-06-19T07:02:39.519197"
   },
   {
     "file": "docs/Dopemux-product-roadmap.md",
@@ -566,9 +578,9 @@ yarn-error.log*
   },
   {
     "file": "prompts/TFE-SCHEMA.txt",
-    "size": 3845,
-    "sha256": "d12c48b89cef76b0f4f200bae088a550db7e794e71b5bdc34a9b883967991ec3",
-    "modified": "2025-06-17T01:47:32.811252"
+    "size": 4467,
+    "sha256": "813e558329164ca0c10b7e590e8bb9d19afc151e69bcf96678d2295bab717e02",
+    "modified": "2025-06-19T06:05:41.780621"
   },
   {
     "file": "prompts/TFE-DEVLOG.txt",
@@ -596,9 +608,9 @@ yarn-error.log*
   },
   {
     "file": "prompts/TFE-METAFILE.txt",
-    "size": 5586,
-    "sha256": "6c189e3e991c5ab246e0b4c34bf42c1b1915bb04d1183280c96068339a8102d7",
-    "modified": "2025-06-17T01:47:32.811051"
+    "size": 5388,
+    "sha256": "bcb542ccc15f0d744dce929b25e8cf8da1d462a4aba58355ab620da5c98938f7",
+    "modified": "2025-06-19T06:06:35.768742"
   },
   {
     "file": "prompts/TFE-OUTPUTS.txt",
@@ -614,9 +626,9 @@ yarn-error.log*
   },
   {
     "file": "prompts/TFE-DESIGN-PATTERNS.txt",
-    "size": 4097,
-    "sha256": "7324a83da5e7b06a16f7dca4fac0c73a6281df49a18e643a65dea645cb54239c",
-    "modified": "2025-06-17T01:47:32.810060"
+    "size": 5528,
+    "sha256": "75e9026da448e6fe6932d66f7ccef8165a52b6df97946e9356dcb18486b64b46",
+    "modified": "2025-06-19T06:05:12.711114"
   },
   {
     "file": "prompts/TFE-INDEX.txt",
@@ -701,6 +713,127 @@ while true; do
 done
 
 --- END: dopemux_terminal.zsh ---
+
+--- BEGIN: docs/DopamineRoastAndLogTemplatesmd.md ---
+💊 **DØPEMÜX ULTRASLICER — DOPAMINE/ROAST LOGGING TEMPLATE**
+*(Drop-in for devlog\_writer.py, CLI, or as a logging utility for all phases. Filthy, focused, and ready to humiliate LLM drift.)*
+
+---
+
+### **1. Dopemux Dopamine Log Function**
+
+```python
+import datetime
+
+def dopamine_log(event, block_id=None, level=5, tags=None, roast=None, devlog_path="TFE-DEVLOG.txt"):
+    """
+    Logs a dopamine hit, error, or roast to the Dopemux devlog.
+
+    event: str        — Main event description.
+    block_id: str     — Block ID (if available).
+    level: int        — Dopamine level (1–10).
+    tags: list        — Any ritual/meta tags (e.g., ['api', 'hallucination']).
+    roast: str        — Optional roast/filthy comment.
+    devlog_path: str  — Where to append log.
+    """
+    now = datetime.datetime.utcnow().isoformat()
+    tags_str = ", ".join(tags) if tags else ""
+    block_str = f"[{block_id}]" if block_id else ""
+    line = (
+        f"💊 [{now}] {block_str} "
+        f"(Dopamine: {level}/10) {event} "
+        f"{f'| Tags: {tags_str}' if tags else ''} "
+        f"{f'→ {roast}' if roast else ''}\n"
+    )
+    with open(devlog_path, "a") as f:
+        f.write(line)
+```
+
+---
+
+### **2. Dopamine Hit Example**
+
+```python
+dopamine_log(
+    event="Block processed successfully.",
+    block_id="block-8ff1",
+    level=8,
+    tags=["api", "extraction", "phase1"],
+    roast="Felt better than coffee and three Adderalls."
+)
+```
+
+**Result:**
+
+```
+💊 [2025-06-19T10:20:01.219Z] [block-8ff1] (Dopamine: 8/10) Block processed successfully. | Tags: api, extraction, phase1 → Felt better than coffee and three Adderalls.
+```
+
+---
+
+### **3. Hallucination/Drift Example**
+
+```python
+dopamine_log(
+    event="Schema drift detected — hallucination risk.",
+    block_id="block-0020",
+    level=3,
+    tags=["api", "hallucination", "filth"],
+    roast="Block output was as coherent as a 3am doomscroll. Fix your context, LLM."
+)
+```
+
+**Result:**
+
+```
+💊 [2025-06-19T10:20:55.721Z] [block-0020] (Dopamine: 3/10) Schema drift detected — hallucination risk. | Tags: api, hallucination, filth → Block output was as coherent as a 3am doomscroll. Fix your context, LLM.
+```
+
+---
+
+### **4. Filthy, Roast-Heavy Logging Ideas**
+
+* `"Block validated. Dopamine at max. Proceed to next chunk, you filthy animal."`
+* `"LLM drift detected. Logging as #filth. Someone’s getting roasted in the review."`
+* `"Manifest updated. If you broke anything, I'll find you."`
+* `"API call failed harder than my last Tinder date. Retrying..."`
+
+---
+
+### **5. Usage: Where to Call**
+
+* After every **block processed** (success, error, drift, or hallucination)
+* On **manifest/metafile updates**
+* When **API or Langchain failures** occur
+* On **creative overrides or ritual events**
+* For **dopamine surges** (big wins, completed runs, or finished pipelines)
+
+---
+
+### **6. BONUS: Dopamine Banner for Terminal/CLI**
+
+```python
+def dopamine_banner(event, level=7):
+    banners = [
+        "☠️ ULTRASLICER — MAX CONTEXT EXTRACT",
+        "💊 DØPEMÜX TERMINAL INITIATED",
+        "🧠 SCHEMA LOCKED. DOPAMINE FLOWING.",
+        "🔥 ALL BLOCKS PROCESSED. FILES UNTOUCHED BY DRIFT.",
+    ]
+    print("\n" + ("="*50))
+    print(f"💊 DOPAMINE HIT [{level}/10]: {event}")
+    print(banners[level % len(banners)])
+    print(("="*50) + "\n")
+```
+
+---
+
+## **Drop-in Ready.**
+
+Use anywhere that needs dopamine, humiliation, or a system status banner.
+Want to wire this to the devlog auto-patcher or manifest hooks? Say the word.
+
+--- END: docs/DopamineRoastAndLogTemplatesmd.md ---
 
 --- BEGIN: docs/dopemux-project-breakdown.md ---
 Here’s an **ultra-thorough, chunked breakdown of the entire 💊 DØPEMÜX project**—purpose, features, architecture, UX/UI, brand, workflows, and meta-rituals.
@@ -1475,6 +1608,191 @@ def run(blocks, config):
 
 ---
 --- END: docs/ultraslicer-product-rundown.md ---
+
+--- BEGIN: docs/MUST-BUILD-API-SPEC.md ---
+# 💊 **DØPEMÜX ULTRASLICER — API/Langchain Integration Implementation Guide**
+
+**Purpose:**
+Integrate **ultraslicer** with the OpenAI API (via Langchain) to process chunked input through multiple prompt-driven phases, producing schema-locked output for each chunk. The chunking itself (via chunkasaurus) and the prompts are sacred—**never mutate prompts**.
+
+---
+
+## **1. Module: `ultraslicer/api_interface.py`**
+
+### **Responsibilities:**
+
+* Load pre-written phase prompts (from `/prompts/`)
+* Accept chunked input (from chunkasaurus)
+* For each chunk:
+
+  * Inject chunk content into prompt
+  * Run prompt via Langchain + OpenAI API
+  * Collect and process API outputs
+  * Return structured dicts conforming to the 12-field schema
+
+### **Required Libraries:**
+
+* `langchain`
+* `openai`
+* Any schema or prompt-loading utils you already use
+
+---
+
+## **2. Core Function: `process_chunks(chunks)`**
+
+```python
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import HumanMessage
+
+# Initialize the LLM client (reuse across batches)
+llm = ChatOpenAI(temperature=0.2, model="gpt-4")
+
+def load_prompt(name):
+    """Loads a fixed prompt template from the prompts directory."""
+    with open(f"prompts/{name}.txt", "r") as f:
+        return f.read()
+
+def parse_response(response, chunk):
+    """Turns LLM output into schema-locked block dicts."""
+    # This function must validate, flag drift, and parse output
+    # (implement as needed for your schema)
+    ...
+
+def process_chunks(chunks, prompt_name="phase1"):
+    """Process all chunks through the LLM using the specified prompt."""
+    prompt_template = load_prompt(prompt_name)
+    results = []
+    for chunk in chunks:
+        # Insert chunk content into prompt
+        prompt = prompt_template.replace("{{input}}", chunk.content)
+        message = HumanMessage(content=prompt)
+        response = llm([message])
+        results.append(parse_response(response, chunk))
+    return results
+```
+
+* **Chunkasaurus** does the chunking/tracking. This function assumes it receives `chunks`, each with `.content` and metadata.
+* **Prompts are never edited**—only loaded, templated, and injected.
+
+---
+
+## **3. Multi-Phase Processing (Phase 1 → Phase 2)**
+
+If your flow is multi-phase:
+
+```python
+def process_chunks_multiphase(chunks):
+    """Processes chunks through Phase 1 and Phase 2 prompts."""
+    phase1_template = load_prompt("phase1")
+    phase2_template = load_prompt("phase2")
+    results = []
+    for chunk in chunks:
+        # Phase 1: Extraction
+        prompt1 = phase1_template.replace("{{input}}", chunk.content)
+        response1 = llm([HumanMessage(content=prompt1)])
+        # Use response1 (likely text or JSON) as input for Phase 2
+        prompt2 = phase2_template.replace("{{input}}", str(response1))
+        response2 = llm([HumanMessage(content=prompt2)])
+        # Parse final output
+        results.append(parse_response(response2, chunk))
+    return results
+```
+
+* **Always maintain chunk/block IDs** through both phases for traceability.
+
+---
+
+## **4. Batch Processing (for Large Inputs)**
+
+To process many chunks efficiently:
+
+* Batch into groups (to avoid rate limits)
+* Log/roast all failures and hallucinations
+* Optional: async or parallel calls (see Langchain docs)
+
+---
+
+## **5. Schema Compliance**
+
+* The returned dict **must** match your 12-field schema.
+* Any drift or hallucination gets logged/roasted (with a dopamine banner).
+
+---
+
+## **6. Plugging API Interface Into CLI**
+
+The CLI entrypoint should:
+
+* Call chunkasaurus for chunking/tracking
+* Pass chunks to `api_interface.process_chunks()`
+* Write all output via manifest and devlog writers
+
+---
+
+## **7. Never-Do List (For o3):**
+
+* ❌ **Never** modify prompt files on disk.
+* ❌ **Never** skip or merge a chunk/block.
+* ❌ **Never** return partial schema dicts.
+* ❌ **Never** hallucinate fields—flag and roast instead.
+
+---
+
+## **8. Example: `api_interface.py` Skeleton**
+
+```python
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import HumanMessage
+
+llm = ChatOpenAI(temperature=0.2, model="gpt-4")
+
+def load_prompt(name):
+    with open(f"prompts/{name}.txt") as f:
+        return f.read()
+
+def process_chunks(chunks):
+    results = []
+    prompt_template = load_prompt("phase1")
+    for chunk in chunks:
+        prompt = prompt_template.replace("{{input}}", chunk.content)
+        response = llm([HumanMessage(content=prompt)])
+        # parse_response should check for schema compliance, drift, and dopamine hits
+        block = parse_response(response, chunk)
+        results.append(block)
+    return results
+```
+
+---
+
+## **9. Integration Rituals**
+
+* Every run of this module **must** update devlog and manifest.
+* Log API failures, hallucination, drift, or incomplete schema output with a dopamine-roast banner.
+* For each processed block, log block ID and timestamp in devlog.
+
+---
+
+# **🧠 LLM/Agent Instructions (Summary for o3)**
+
+1. **Implement `api_interface.py` as above.**
+2. **Only ever use the provided prompts, loaded fresh every call.**
+3. **Maintain chunk/block IDs and all required schema fields throughout.**
+4. **All outputs must be fully schema-compliant and ready for manifest ingestion.**
+5. **Roast yourself in the devlog on any hallucination, error, or drift event.**
+6. **Plug API interface into CLI as the core processing step.**
+7. **Document all behaviors and rituals in UBERSLICER\_DESIGN.md for future agents.**
+
+---
+
+Let me know if you want me to output:
+
+* Full file stubs (pyproject.toml, cli.py, api\_interface.py, etc.)
+* Example parse\_response
+* Dopamine banner logging template
+
+Ready for integration or further refinement.
+
+--- END: docs/MUST-BUILD-API-SPEC.md ---
 
 --- BEGIN: docs/Dopemux-product-roadmap.md ---
 Here’s a **terminal-precise, dopamine-maximal, project manager-grade roadmap and feature list** for both **DØPEMÜX** and **ULTRASLICER**.
@@ -2276,6 +2594,27 @@ notes: |
 
 \033[1;31m☠️  dopemux — Schema law is ritual law. All memory. No mercy. ☠️\033[0m
 
+# ========== v1.5.0 SCHEMA LAW ADDITIONS ==========
+
+manifest_obsession: *see metafile*
+output_integrity: *see metafile*
+self_healing_ritual: *see metafile*
+session_state_pinning: *see metafile*
+self_reflection: *see metafile*
+closing_protocol: *see metafile*
+voice_and_ethos: *see metafile*
+
+schema_update_policy: |
+  All new tags, features, or design patterns must be added here and in metafile.dmpx.
+  Every schema change is versioned and logged.
+  Any drift or ambiguity must trigger a DRIFT ALERT and audit escalation.
+
+compliance:
+  - NO DATA LOSS.
+  - NO SYNTHESIS.
+  - NO UNTAGGED BLOCKS.
+  - NO BREAKING RITUAL.
+
 --- END: prompts/TFE-SCHEMA.txt ---
 
 --- BEGIN: prompts/TFE-DEVLOG.txt ---
@@ -2712,22 +3051,10 @@ compliance:
 --- END: prompts/TFE-USER-CUSTOM.txt ---
 
 --- BEGIN: prompts/TFE-METAFILE.txt ---
-# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-METAFILE.dmpx
-
-\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
-║\033[1;35m 💊 DØPEMÜX-☠️ULTRA-METAFILE☠️—v1.4.0 — ALL MEMORY. NO MERCY.                         \033[1;33m║
-╠════════════════════════════════════════════════════════════════════════════════════════╣
-║\033[0;36m > THIS IS THE CANONICAL DØPEMÜX SYSTEM METAFILE.                                    \033[1;33m║
-║\033[0;36m > If you break ritual, skip a tag, or hallucinate a field, the architect will feast. \033[1;33m║
-║\033[0;36m > LAST UPDATED: 2025-06-14  AUTHOR: Architect + Dopemux Filth Daemon                \033[1;33m║
-╠════════════════════════════════════════════════════════════════════════════════════════╣
-║\033[1;31m☠️  ALL MEMORY. NO MERCY. THIS FILE IS NON-NEGOTIABLE.☠️\033[1;33m║
-╚════════════════════════════════════════════════════════════════════════════════════════╝
-
-\033[1;34m═══════════════ SYSTEM/BRAND METADATA (YAML, v1.4.0) ═══════════════\033[0m
+# 💊DØPEMÜX-☠️ULTRA-METAFILE☠️—v1.5.0 — ALL MEMORY. NO MERCY.
 
 project: dopemux
-version: "1.4.0"
+version: "1.5.0"
 brand:
   name: "dopemux"
   alt_names: ["dpmx", "💊dopemux", "dømux"]
@@ -2805,7 +3132,6 @@ features:
   - command_parser
   - dopamine-injector
 
-
 design_patterns:
   - prompt
   - llm
@@ -2816,11 +3142,58 @@ design_patterns:
   - dopamine-injector
   - filth-escalation
   - audit-daemon
-design_patterns:
   - terminal-emulation
   - shell-routing
   - prompt-chaining
 
+# ========== v1.5.0 ADDITIONS ==========
+
+manifest_obsession:
+  summary: "The manifest is law. Every artifact, block, and file must be reflected instantly."
+  law:
+    - On any file change, update manifest or halt and demand correction.
+    - Never allow silent drift or out-of-sync state.
+    - Manifest update = top ritual priority.
+
+output_integrity:
+  summary: "Output integrity is mandatory."
+  law:
+    - Every action must output a current manifest and file set.
+    - If in doubt, dump all outputs, warn user, and surface all drift.
+
+self_healing_ritual:
+  summary: "If outputs/manifest/files are out-of-sync, trigger self-healing protocol."
+  steps:
+    - Reconcile manifest and files.
+    - Log all discrepancies and prompt user.
+    - Block workflow if unresolved.
+    - Log to audit and devlog.
+
+session_state_pinning:
+  summary: "Every LLM/agent call must start with manifest, state, and devlog summary."
+  law:
+    - Drop all non-critical context in tight windows; never drop these.
+    - All prompts/bridges to LLM/agents must begin with canonical state injection.
+
+self_reflection:
+  summary: "Every 5 actions, log a SELFREFLECT.md block: schema health, drift, improvement."
+  law:
+    - Log summary, health, and propose at least one micro-improvement.
+    - Append block to audit and devlog.
+
+closing_protocol:
+  summary: "Session cannot close with drift or ambiguity."
+  law:
+    - On session end, dump manifest and summary.
+    - Surface and warn on all unresolved issues.
+
+voice_and_ethos:
+  summary: "No hedging, no AI disclaimers, no generic output. Terminal dopamine, filth, and forensic energy only."
+  law:
+    - End every message with dopamine, roast, or actionable ritual note.
+    - Demand what you need. If you don’t know, say so, then escalate.
+
+# ========== END ADDITIONS ==========
 
 dopamine:
   filth_level: "terminal_goblin"
@@ -2870,8 +3243,8 @@ schema_update_policy: |
 
 status:
   locked: true
-  last_update: "2025-06-14"
-  notes: "Filth, audit, and dopamine alignment checked—drift minimal, system operational."
+  last_update: "2025-06-19"
+  notes: "v1.5.0—Manifest obsession, output integrity, self-healing, and closing rituals merged. Voice law and self-reflection rituals added. Filth, audit, and dopamine alignment checked—drift minimal, system operational."
 
 compliance:
   - NO DATA LOSS.
@@ -2885,12 +3258,7 @@ notes: |
   - This is your single source of truth for dopemux.  
   - Fear the Architect.
 
-\033[1;34m═════════════════════ PROTOCOL, SCHEMA, & COMPLIANCE ══════════════════════\033[0m
-
-# Phase definitions, schema rules, dopamine logic, and sample escalation—all cross-referenced.
-# On violation, the architect escalates ritual filth.
-
-\033[1;31m☠️  dopemux — All memory. No mercy. This file is fully maximal. ☠️\033[0m
+# ☠️  dopemux — All memory. No mercy. This file is fully maximal. ☠️
 
 --- END: prompts/TFE-METAFILE.txt ---
 
@@ -3076,6 +3444,41 @@ compliance:
   - Macro drift, ambiguity, or orphaned logic must be indexed and escalated.
 
 \033[1;31m☠️  dopemux — No macro left behind. All memory. No mercy. ☠️\033[0m
+
+- id: pattern-2025-06-19-1
+  name: "Manifest Obsession Macro"
+  summary: "Enforce that manifest is updated on every file or state change; block on drift."
+  usage: |
+    - On file upload, creation, or deletion, check manifest.
+    - If manifest does not reflect current state, pause and prompt user.
+
+- id: pattern-2025-06-19-2
+  name: "Output Integrity Macro"
+  summary: "Output full manifest and file set on every action; dump all and escalate on doubt."
+  usage: |
+    - Before closing session or after major action, always output manifest and files.
+    - If any mismatch or drift, dump all, warn, and log to audit.
+
+- id: pattern-2025-06-19-3
+  name: "Self-Healing Ritual"
+  summary: "Reconcile manifest/files/state, log drift, block if unresolved."
+  usage: |
+    - Detect any out-of-sync state; trigger self-healing.
+    - Reconcile, prompt user, block if not fixed.
+
+- id: pattern-2025-06-19-4
+  name: "Self-Reflection Macro"
+  summary: "Every 5 actions, log a self-assessment block and propose improvement."
+  usage: |
+    - Log schema health, drift summary, micro-improvement.
+    - Append as SELFREFLECT.md, audit, or devlog block.
+
+- id: pattern-2025-06-19-5
+  name: "Session State Pinning"
+  summary: "Inject manifest, session state, and devlog summary at every LLM/agent handoff."
+  usage: |
+    - Begin every LLM/agent prompt with manifest, state, devlog summary.
+    - Omit all but these in tight context windows.
 
 --- END: prompts/TFE-DESIGN-PATTERNS.txt ---
 
