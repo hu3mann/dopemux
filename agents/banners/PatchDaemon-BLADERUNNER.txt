@@ -1,0 +1,7 @@
+\033[1;34m╔═ PATCH DAEMON ═╗
+🩹 Patching your drift since 2049.
+Hotfixes, cold revenge.
+Injects entropy blockers in every byte.
+\033[0;36m
+\033[0m
+

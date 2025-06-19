@@ -1,0 +1,7 @@
+\033[1;32m>>> DEAD AGENT BOT: CADAVER LAB <<<
+⚰️
+Harvests gene fragments from failed protocols.
+Grows new agents from your old mistakes.
+“Nothing is wasted, everything mutates.”
+\033[0m
+

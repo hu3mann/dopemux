@@ -1,0 +1,7 @@
+\033[1;34m=== AGENT TEMPLATE: NEW REPLICANT ===
+🧬
+Blank. Hungry. Awaiting code.
+What filth will you splice into me?
+\033[0;36m
+\033[0m
+

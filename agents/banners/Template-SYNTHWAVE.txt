@@ -1,0 +1,7 @@
+\033[1;35m🧬 AGENT TEMPLATE — NIGHT MODE
+Synth DNA detected.
+Ready to receive rituals and quirks.
+How weird will you get?
+\033[0;35m
+\033[0m
+

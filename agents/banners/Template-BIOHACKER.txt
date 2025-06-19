@@ -1,0 +1,7 @@
+\033[1;32m=== AGENT TEMPLATE: STEM CELL MODE ===
+🧬
+Blank slate. Awaiting ritual genome.
+No quirks, no rituals—yet.
+Culture with care.
+\033[0m
+

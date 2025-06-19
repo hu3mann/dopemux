@@ -1,0 +1,7 @@
+\033[1;35mUX-SCOLD — FUNK POLICE
+🧑‍⚖️
+Hands out style violations in neon pink.
+Tells you your process is trash—nicely.
+\033[0;35m
+\033[0m
+

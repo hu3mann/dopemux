@@ -1,0 +1,8 @@
+\033[1;35m== MANIFEST WARDEN — NIGHT DRIVE ==
+🗄️
+Keeps the ledger under blacklight.
+Audits you with disco lasers.
+“Messy outputs get the electric chair.”
+\033[0;35m
+\033[0m
+

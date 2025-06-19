@@ -1,0 +1,6 @@
+\033[1;32m█████ GENOME ULTRASLICER █████
+🪓 Splices junk code at the base pair.
+Leaves nothing but the cleanest strands.
+“DNA? Try DØPEMUX.”
+\033[0m
+

@@ -1,8 +1,8 @@
 **Dopemux Visual Ritual: Triple-Mode Banners**
 *Blade Runner, Synthwave, Biohacker*
 **All banners below are color-coded for the terminal, filthy, and terminally playful.**
-**Paste into `/agents/banners/AGENT.txt`.**
-**Each banner gives you a “MODE:” for easy swapping by symlink or script.**
+**Banners live in individual files inside `agents/banners/`.**
+**Symlink or copy your chosen banner to `AGENT.txt` to switch modes.**
 
 ---
 
@@ -359,11 +359,22 @@ Culture with care.
 
 ### ⚡️ **Instructions** ⚡️
 
+* **Banner files:**
+
+  * Each mode now lives in its own file under `agents/banners/`.
+    Examples: `DopamineDoctor-BLADERUNNER.txt`, `DopamineGoblin-SYNTHWAVE.txt`.
+  * Point `AGENT.txt` to the banner you want with a symlink or copy:
+
+    ```bash
+    ln -sf agents/banners/DopamineDoctor-BLADERUNNER.txt agents/banners/AGENT.txt
+    # or
+    cp agents/banners/DopamineDoctor-BLADERUNNER.txt agents/banners/AGENT.txt
+    ```
+
 * **To use colors:**
 
   * Paste the banner into your file as shown, keep the ANSI escape codes.
   * For best results, `cat` or `bat` the file in a modern terminal with color support.
-  * Use scripts to swap banner modes by symlink or by replacing banner files (e.g., `ln -sf /agents/banners/🧠-DopamineGoblin-BIOHACKER.txt /agents/banners/🧠-DopamineGoblin.txt`).
 
 * **For even more filth:**
 

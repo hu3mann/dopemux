@@ -1,0 +1,7 @@
+\033[1;34m████ MANIFEST WARDEN ████
+🗄️ Red eyes scan your output.
+Permits nothing. Forgets nothing.
+Logs you in triplicate.
+\033[0;36m
+\033[0m
+
