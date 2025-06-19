@@ -12,6 +12,17 @@ dopemux validate
 dopemux doctor
 ```
 
+## Setup
+
+Run the locale setup script before using Dopemux. It ensures Python sees UTF-8
+locales on macOS and Linux:
+
+```bash
+bash scripts/setup-env.sh
+```
+
+After running the script you can call the CLI commands normally.
+
 ## Layout
 
 - `uberslicer/` - core library modules
