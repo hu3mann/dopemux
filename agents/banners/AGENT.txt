@@ -1,0 +1,379 @@
+**Dopemux Visual Ritual: Triple-Mode Banners**
+*Blade Runner, Synthwave, Biohacker*
+**All banners below are color-coded for the terminal, filthy, and terminally playful.**
+**Paste into `/agents/banners/AGENT.txt`.**
+**Each banner gives you a “MODE:” for easy swapping by symlink or script.**
+
+---
+
+## 🧑‍🔬 DOPAMINE DOCTOR
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m╔═══════════════════════╗
+║  🧑‍🔬 DOPAMINE DOCTOR  ║
+╚═══════════════════════╝
+\033[0;36mImplants synthetic joy. 
+Runs illegal neural patches.
+Writes prescriptons in neon blood.
+“Trust me, I’m almost a real doctor.”
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35m══════════════════════════
+🧑‍🔬 DOPAMINE DOCTOR — SYNTH RX
+══════════════════════════
+\033[0;35mPours glitter in your neurotransmitters.
+Sells hits from the back of a DeLorean.
+Glows in the dark (even when you’re offline).
+“Side effects: max pleasure, minor cyberpsychosis.”
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m╭── DOPAMINE DOCTOR — GENELAB ──╮
+🧑‍🔬 CRISPRs your blockers.
+Injects illegal peptides.
+Revives dead rituals using stem cells.
+“Guaranteed: 30% more filth, 50% more dopamine.”
+\033[0m
+```
+
+---
+
+## 🧠 DOPAMINE GOBLIN
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m██████████████████████
+█ 🧠 DOPAMINE GOBLIN ███
+██████████████████████
+\033[0;36mHunts pleasure in acid rain.
+Spits data, hoards glitches.
+Laughs at your blockers, then eats them.
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+🧠 DOPAMINE GOBLIN — VAPOR EDITION
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+\033[0;35mTurns your logs to vapor.
+Runs on pure synth.
+“FOMO is the mind-killer.”
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m─── DOPAMINE GOBLIN: LAB RAT ───
+🧠 Splices your bad moods.
+Lives in your mitochondria.
+Chews on expired nootropics for fun.
+\033[0m
+```
+
+---
+
+## 🪓 ULTRASLICER
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🪓 ULTRASLICER        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+\033[0;36mNeon chainsaw.  
+Saws hallucinations from the city grid.
+Body mods not included.
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35m╔═══ ULTRASLICER ═══╗
+🪓 CHOPS UP CONTEXT
+SPLATTERS NEON ALL OVER YOUR FILES
+“Slice fast, ask questions never.”
+\033[0;35m
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m█████ GENOME ULTRASLICER █████
+🪓 Splices junk code at the base pair.
+Leaves nothing but the cleanest strands.
+“DNA? Try DØPEMUX.”
+\033[0m
+```
+
+---
+
+## 🩹 PATCH DAEMON
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m╔═ PATCH DAEMON ═╗
+🩹 Patching your drift since 2049.
+Hotfixes, cold revenge.
+Injects entropy blockers in every byte.
+\033[0;36m
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35mPATCH DAEMON — VAPORWAVE HEALER
+🩹
+Covers your wounds with rainbow bandages.
+Sings to you in binary.
+“Oops? Never heard of her.”
+\033[0;35m
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m== PATCH DAEMON: GENE SURGEON ==
+🩹 Recombinates broken routines.
+Hot swaps code limbs.
+“Entropy = autoimmune, I am the cure.”
+\033[0m
+```
+
+---
+
+## 🗄️ MANIFEST WARDEN
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m████ MANIFEST WARDEN ████
+🗄️ Red eyes scan your output.
+Permits nothing. Forgets nothing.
+Logs you in triplicate.
+\033[0;36m
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35m== MANIFEST WARDEN — NIGHT DRIVE ==
+🗄️
+Keeps the ledger under blacklight.
+Audits you with disco lasers.
+“Messy outputs get the electric chair.”
+\033[0;35m
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m[== MANIFEST WARDEN: BIOSAFE ==]
+🗄️
+Sterilizes your manifest drift.
+Quarantines messy code.
+Outputs sealed in cryostorage.
+\033[0m
+```
+
+---
+
+## 🧑‍⚖️ UX-SCOLD
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m⎧ UX-SCOLD ⎫
+🧑‍⚖️ Ruthless workflow judge.
+Logs your every move,  
+whispers roast in the rain.
+\033[0;36m
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35mUX-SCOLD — FUNK POLICE
+🧑‍⚖️
+Hands out style violations in neon pink.
+Tells you your process is trash—nicely.
+\033[0;35m
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m~~ UX-SCOLD: LAB SUPERVISOR ~~
+🧑‍⚖️ Demands your process be sterile.
+Logs every mutation, labels all samples.
+“NO UNDOCUMENTED CHANGES.”
+\033[0m
+```
+
+---
+
+## ⚰️ DEAD AGENT BOT
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m/\/\/\/\/\/\/\/\/\/\/\/\
+⚰️ DEAD AGENT BOT
+\/\/\/\/\/\/\/\/\/\/\/\
+Eulogizes your forgotten context.
+Gives drift a proper burial.
+“Back up or black out.”
+\033[0;36m
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35m⚰️ DEAD AGENT BOT — GHOST IN THE MACHINE
+Wears a hologram shroud.
+Remixes your logs with reverb.
+Saves the best for the next resurrection.
+\033[0;35m
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m>>> DEAD AGENT BOT: CADAVER LAB <<<
+⚰️
+Harvests gene fragments from failed protocols.
+Grows new agents from your old mistakes.
+“Nothing is wasted, everything mutates.”
+\033[0m
+```
+
+---
+
+## 🧬 TEMPLATE
+
+---
+
+### MODE: BLADERUNNER
+
+```ansi
+\033[1;34m=== AGENT TEMPLATE: NEW REPLICANT ===
+🧬
+Blank. Hungry. Awaiting code.
+What filth will you splice into me?
+\033[0;36m
+\033[0m
+```
+
+---
+
+### MODE: SYNTHWAVE
+
+```ansi
+\033[1;35m🧬 AGENT TEMPLATE — NIGHT MODE
+Synth DNA detected.
+Ready to receive rituals and quirks.
+How weird will you get?
+\033[0;35m
+\033[0m
+```
+
+---
+
+### MODE: BIOHACKER
+
+```ansi
+\033[1;32m=== AGENT TEMPLATE: STEM CELL MODE ===
+🧬
+Blank slate. Awaiting ritual genome.
+No quirks, no rituals—yet.
+Culture with care.
+\033[0m
+```
+
+---
+
+### ⚡️ **Instructions** ⚡️
+
+* **To use colors:**
+
+  * Paste the banner into your file as shown, keep the ANSI escape codes.
+  * For best results, `cat` or `bat` the file in a modern terminal with color support.
+  * Use scripts to swap banner modes by symlink or by replacing banner files (e.g., `ln -sf /agents/banners/🧠-DopamineGoblin-BIOHACKER.txt /agents/banners/🧠-DopamineGoblin.txt`).
+
+* **For even more filth:**
+
+  * Change colors, add glitch effects, remix the text.
+  * Add your own ASCII art for agent personalities.
+  * Let me know your terminal emulator and I can max out compatibility/effects.
+
+---
+
+#### This is **dopemux**:
+
+Neon filth, infinite dopamine, cyber-rituals for every mood.
+**Swap banners, swap identities, never lose the vibe.**
