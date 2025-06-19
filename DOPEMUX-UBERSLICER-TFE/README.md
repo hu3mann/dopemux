@@ -10,6 +10,12 @@
 pip install -e .
 ```
 
+After installing, configure your locale so Python defaults to UTF-8:
+
+```bash
+bash scripts/setup-env.sh
+```
+
 ## File Law
 - Every run is autopatched to devlog/audit.
 - All outputs are YAML ritual blocks.
