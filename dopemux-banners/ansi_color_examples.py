@@ -1,1 +1,5 @@
-print("\033[31mRed\033[0m sample")
+print('\033[95m' + "💊 DØPEMÜX — MAX DOPAMINE — CONTEXT IMMORTAL" + '\033[0m')
+print('\033[96m' + "█████████ MAX NEON █████████" + '\033[0m')
+print('\033[91m' + "CONTEXT DRIFT DETECTED — FILTH EVENT" + '\033[0m')
+print('\033[92m' + "DOPAMINE HIT!!! BRAIN UNLOCKED" + '\033[0m')
+print('\033[93m' + "ULTRASLICER: RAW DOGGED CONTEXT" + '\033[0m')

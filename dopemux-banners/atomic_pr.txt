@@ -1,1 +1,9 @@
-🔖 Atomic PR ritual initiated.
+🚀💊🦑  DØPEMÜX ATOMIC PR INITIATED  🦑💊🚀
+══════════════════════════════════════════
+🔖  PR: {PR_TITLE}
+📦  FILES: {FILES}
+🧠  DESCRIPTION: {DESC}
+📋  ACCEPTANCE: {TEST_PLAN}
+══════════════════════════════════════════
+🧟  If your PR isn’t atomic, chunk it like it owes you dopamine.
+🔥  Lint error? #filth event. Roast in commit. Screenshot and send to Slack.

@@ -42,3 +42,7 @@ project works anywhere.
 `utils.colorize()` wraps text with ANSI escape codes. Customize styles in
 `config.yaml` under `dopemux.colors`.
 
+### Banners
+
+Run `python banner_loader.py` to print a random dopamine banner. The `dopemux-banners` folder contains the raw banner files; create `dopemux-banners.zip` yourself if you need a zipped archive.
+
