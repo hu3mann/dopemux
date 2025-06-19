@@ -1,13 +1,17 @@
-agent: 
-role: 
+<!-- filepath: /Users/houstonkrohman/code/dopemux/agents/agent-TEMPLATE.md -->
+agent: <AgentName>
+role: <Short agent role/description>
 rituals:
-•<Ritual 1>
-•<Ritual 2>
+  - <Describe key agent ritual or function>
+  - <Describe another ritual>
+  - <Add more as needed>
 triggers:
-•<When does this agent wake up?>
+  - <Describe trigger event>
+  - <Add more as needed>
 quirks:
-•<Filthy, weird, or strict habits?>
-created: 
-updated: 
-retired: null
-notes: 
+  - <Describe unique agent quirk>
+  - <Add more as needed>
+created: <YYYY-MM-DD>
+updated: <YYYY-MM-DD>
+retired: <null or retirement date>
+notes: <version, schema, or other notes>
