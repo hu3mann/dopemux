@@ -3,6 +3,7 @@ import os
 import uuid
 import yaml
 import datetime
+from banners import on_chunking_start, on_block_success
 
 SCHEMA_FIELDS = [
     "session_metadata", "source", "block_id", "tags", "content",
@@ -19,6 +20,7 @@ def ritual_header(block_id, summary):
 
 
 def slice_blocks(input_path):
+    on_chunking_start()
     with open(input_path) as f:
         raw = f.read()
     blocks = [b.strip() for b in raw.split('\n\n') if b.strip()]
@@ -52,3 +54,4 @@ def dump_blocks(blocks, outdir):
         outpath = os.path.join(outdir, f"{block['block_id']}.yaml")
         with open(outpath, "w") as f:
             yaml.dump(block, f, sort_keys=False)
+        on_block_success()

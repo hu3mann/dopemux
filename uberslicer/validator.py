@@ -1,6 +1,7 @@
 import yaml, json, sys, glob
 from pathlib import Path
 from utils import log_audit, load_config
+from banners import on_block_success, on_drift_or_error
 
 CFG = load_config()
 SCHEMA_PATH = Path(CFG["schema"]["file"])
@@ -38,5 +39,7 @@ def validate_all():
             bad += 1
 
     if bad or pending:
+        on_drift_or_error()
         sys.exit(f"❌ validation failed: {bad} bad blocks, {pending} pending patches")
+    on_block_success()
     print("✅ all blocks validated & no pending patch review")

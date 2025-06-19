@@ -6,6 +6,7 @@ Called via `dopemux doctor`.
 from pathlib import Path
 import yaml
 import sys
+from banners import on_block_success, on_drift_or_error
 
 # Match your config.yaml structure
 REQUIRED_CONFIG_KEYS = [
@@ -86,7 +87,9 @@ def run_diagnosis() -> None:
     ]
     if all(results):
         ok("Doctor check passed — repo looks healthy.")
+        on_block_success()
         sys.exit(0)
+    on_drift_or_error()
     warn("Doctor check failed — fix the ❌ items above.")
     sys.exit(1)
 
