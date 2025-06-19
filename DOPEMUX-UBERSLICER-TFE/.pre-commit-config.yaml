@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: update-manifest
+        name: Update manifest and state
+        entry: scripts/update-reference.zsh
+        language: system
+        types: [python]

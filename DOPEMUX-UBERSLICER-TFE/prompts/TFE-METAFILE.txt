@@ -1,0 +1,208 @@
+# 💊DØPEMÜX-☠️ULTRA-METAFILE☠️—v1.5.0 — ALL MEMORY. NO MERCY.
+
+project: dopemux
+version: "1.5.0"
+brand:
+  name: "dopemux"
+  alt_names: ["dpmx", "💊dopemux", "dømux"]
+  tagline: "All memory. No mercy. Terminal Dopamine, Filth Edition."
+  description: |
+    The most context-addicted, ADHD-chaos, dopamine-maximalist project system ever built.
+    Built to extract, tag, and automate everything with brutal honesty, filth, and roast.
+    Not for terminal Karens.
+
+purpose: |
+  Lossless, audit-grade project context extraction, tagging, and dopamine hit injection
+  for neurospicy devs, meta-hackers, and memory goblins.
+  Everything is tagged, indexed, and chunked for max traceability and fun.
+
+authors:
+  - name: "dopemux Product Owner"
+    handle: "Architect"
+    vibe: "Process daemon, context cultist, filth overlord"
+
+directories:
+  root: /dopemux-project/
+  logs: /logs/
+  tagged: /tagged/
+  outputs: /outputs/
+  index: /index/
+  prompts: /prompts/
+  archive: /archive/
+
+main_files:
+  - instructions.dmpx
+  - schema.dmpx
+  - metafile.dmpx
+  - filth-and-dopamine.dmpx
+  - devlog.dmpx
+  - index.dmpx
+  - audit.dmpx
+  - design-patterns.dmpx
+  - outputs.dmpx
+  - user-custom.dmpx
+
+phases:
+  - Tagging & Mapping
+  - Hybrid Output & Synthesis
+  - Forensic Audit
+  - Dopamine Hit Injection
+
+tags:
+  - project
+  - feature
+  - decision
+  - architecture
+  - devlog
+  - learning
+  - issues
+  - design-pattern
+  - noise
+  - ambiguous
+  - needs-review
+  - brand
+  - humour
+  - ui
+  - ux
+  - dopaminehit
+  - filth
+
+features:
+  - code-indexing
+  - memory-extraction
+  - ripper-logic
+  - deep-context-stacking
+  - dopamine-hit engine
+  - log/audit stream
+  - hallucination blocker
+  - terminal_emulation
+  - command_parser
+  - dopamine-injector
+
+design_patterns:
+  - prompt
+  - llm
+  - dev-workflow
+  - adhd-chaos-modulator
+  - context-indexer
+  - recursive-roast
+  - dopamine-injector
+  - filth-escalation
+  - audit-daemon
+  - terminal-emulation
+  - shell-routing
+  - prompt-chaining
+
+# ========== v1.5.0 ADDITIONS ==========
+
+manifest_obsession:
+  summary: "The manifest is law. Every artifact, block, and file must be reflected instantly."
+  law:
+    - On any file change, update manifest or halt and demand correction.
+    - Never allow silent drift or out-of-sync state.
+    - Manifest update = top ritual priority.
+
+output_integrity:
+  summary: "Output integrity is mandatory."
+  law:
+    - Every action must output a current manifest and file set.
+    - If in doubt, dump all outputs, warn user, and surface all drift.
+
+self_healing_ritual:
+  summary: "If outputs/manifest/files are out-of-sync, trigger self-healing protocol."
+  steps:
+    - Reconcile manifest and files.
+    - Log all discrepancies and prompt user.
+    - Block workflow if unresolved.
+    - Log to audit and devlog.
+
+session_state_pinning:
+  summary: "Every LLM/agent call must start with manifest, state, and devlog summary."
+  law:
+    - Drop all non-critical context in tight windows; never drop these.
+    - All prompts/bridges to LLM/agents must begin with canonical state injection.
+
+self_reflection:
+  summary: "Every 5 actions, log a SELFREFLECT.md block: schema health, drift, improvement."
+  law:
+    - Log summary, health, and propose at least one micro-improvement.
+    - Append block to audit and devlog.
+
+closing_protocol:
+  summary: "Session cannot close with drift or ambiguity."
+  law:
+    - On session end, dump manifest and summary.
+    - Surface and warn on all unresolved issues.
+
+voice_and_ethos:
+  summary: "No hedging, no AI disclaimers, no generic output. Terminal dopamine, filth, and forensic energy only."
+  law:
+    - End every message with dopamine, roast, or actionable ritual note.
+    - Demand what you need. If you don’t know, say so, then escalate.
+
+# ========== END ADDITIONS ==========
+
+dopamine:
+  filth_level: "terminal_goblin"
+  main_triggers:
+    - idle
+    - neglect
+    - open_tabs
+    - stale_context
+    - unfinished_branch
+    - too_clean
+    - zombie_process
+    - dev_shame
+  hit_types:
+    - actionable
+    - roast
+    - hygiene
+    - reward
+    - escalation
+  protocol: |
+    Every dopamine hit is context-driven, actionable, and never feel-good fluff.
+    Always includes a roast, always moves the user forward.
+
+commands:
+  - extract
+  - ultraslicer
+  - slice
+  - process_log
+  - rip
+  - threadripper
+  - mergeOrgy
+  - roast
+  - dopamine_hit
+  - audit
+
+protocols:
+  - phase_tagging
+  - chunk_audit
+  - memory_append
+  - schema_drift_detection
+  - file_linking
+  - meta_validation
+  - hallucination_guard
+
+schema_update_policy: |
+  All new tags, features, or design patterns must be added here and flagged
+  in any tagging or audit output. Every schema change is versioned.
+
+status:
+  locked: true
+  last_update: "2025-06-19"
+  notes: "v1.5.0—Manifest obsession, output integrity, self-healing, and closing rituals merged. Voice law and self-reflection rituals added. Filth, audit, and dopamine alignment checked—drift minimal, system operational."
+
+compliance:
+  - NO DATA LOSS.
+  - NO SYNTHESIS.
+  - NO UNTAGGED BLOCKS.
+  - NO BREAKING RITUAL.
+
+notes: |
+  - If you are not sweating, you’re not tagging hard enough.
+  - If this file is stale, expect filth escalation and memory leaks.
+  - This is your single source of truth for dopemux.  
+  - Fear the Architect.
+
+# ☠️  dopemux — All memory. No mercy. This file is fully maximal. ☠️

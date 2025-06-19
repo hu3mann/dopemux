@@ -1,0 +1,51 @@
+# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-DEVLOG.dmpx
+
+\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
+║\033[1;35m 💊 DØPEMÜX-☠️UBERSLICER☠️—DEVLOG ULTRA RITUAL — v1.4.0                               \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[0;36m > SYSTEM: Block-indexed, lossless, all changes and dopamine/filth escalations.       \033[1;33m║
+║\033[0;36m > AUTHOR: Architect (You) + dopemux filth daemon                                    \033[1;33m║
+║\033[0;36m > Devlog is the audit trail: if it’s not here, it didn’t happen.                     \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[1;31m☠️  Drift, omission, or unlogged change = instant dopamine roast. ☠️\033[1;33m║
+╚════════════════════════════════════════════════════════════════════════════════════════╝
+
+\033[1;34m════════════════════════════════ DEVLOG (block-indexed, v1.4.0) ═══════════════════════\033[0m
+
+devlog:
+  - id: devlog-2025-06-14-1
+    date: "2025-06-14"
+    tags: [system, release, tags, dopamine, filth, phase-logic, schema]
+    summary: "v1.4.0 system files deployed; all tags, dopamine, filth, and phase logic locked."
+    details:
+      - "v1.4.0 files deployed: metafile, schema, filth-and-dopamine, all core prompts."
+      - "Schema drift blockers and audit triggers enabled."
+      - "Dopamine escalation patched: filth increments on snooze/ignore."
+  - id: devlog-2025-06-14-2
+    date: "2025-06-14"
+    tags: [schema, compliance, refactor, meta]
+    summary: "System refactored for full schema compliance (v1.4.0)."
+    details:
+      - "Metafile, instructions, schema, dopamine/filth, and all core prompts aligned."
+      - "Tag schema updated: added adhd-chaos-modulator, recursive-roast, etc."
+      - "Prompt injection logic integrated into all phases."
+      - "All phase transitions now logged in /index/ and linked in index.dmpx."
+  - id: devlog-2025-06-13-1
+    date: "2025-06-13"
+    tags: [forensic, index, filth, escalation, refactor]
+    summary: "Forensic logs indexed; filth escalation path refactored."
+    details:
+      - "Indexed all forensic logs from phase 1/2 runs."
+      - "Refactored filth escalation: adaptive roast level on ignored dopamine hits."
+
+meta_notes: |
+  - All devlog blocks are indexed, never deleted.
+  - Every change, roast, audit, and dopamine escalation is tracked here.
+  - Omission is a cardinal sin; the daemon always finds out.
+
+compliance:
+  - Every system, audit, or ritual change must be logged here.
+  - If you skip a log or fudge a date, dopamine is withheld.
+  - All devlog entries must be block-indexed and filth-traceable.
+
+\033[1;31m☠️  dopemux — If you don’t log it, it didn’t happen. All memory. No mercy. ☠️\033[0m

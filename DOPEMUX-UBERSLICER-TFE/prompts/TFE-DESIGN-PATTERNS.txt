@@ -1,0 +1,100 @@
+# 💊DØPEMÜX-☠️UBERSLICER☠️—TFE-DESIGN-PATTERNS.dmpx
+
+\033[1;33m╔════════════════════════════════════════════════════════════════════════════════════════╗
+║\033[1;35m 💊 DØPEMÜX-☠️UBERSLICER☠️—DESIGN PATTERNS ULTRA RITUAL — v1.4.0                      \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[0;36m > SYSTEM: Macro blocks, reusable prompt/logic patterns, and ritual templates.        \033[1;33m║
+║\033[0;36m > AUTHOR: Architect (You) + dopemux filth daemon                                    \033[1;33m║
+║\033[0;36m > Every macro and pattern is block-indexed, ritualized, and never stale.             \033[1;33m║
+╠════════════════════════════════════════════════════════════════════════════════════════╣
+║\033[1;31m☠️  Patterns are law. Orphan a macro and you summon the daemon. ☠️\033[1;33m║
+╚════════════════════════════════════════════════════════════════════════════════════════╝
+
+\033[1;34m═════════════════════════ PATTERN CATALOG (block-indexed, v1.4.0) ════════════════════\033[0m
+
+design_patterns:
+  - id: pattern-2025-06-14-1
+    name: "Terminal Ritual Block"
+    summary: "Every dopemux file starts with an ANSI ritual header, followed by a structured block."
+    usage: |
+      - Begin all files with a versioned ritual box.
+      - Immediately follow with YAML or structured context.
+      - Enforce audit and compliance after every block.
+
+  - id: pattern-2025-06-14-2
+    name: "Context Chunker"
+    summary: "Chunk raw chat/logs or code into atomized, tagged blocks."
+    usage: |
+      - Slice input by paragraph, code, or semantic boundary.
+      - Tag each block with canonical tags from schema/metafile.
+      - Over-tag if unsure, always block-index.
+
+  - id: pattern-2025-06-14-3
+    name: "Audit Macro"
+    summary: "Reusable macro for scanning and escalating ambiguous, orphan, or untagged blocks."
+    usage: |
+      - Sweep every file or context chunk for missing fields, ambiguous tags, or drift.
+      - Escalate with ritual roast and dopamine protocol on detection.
+      - Log every audit in the audit file; link to block IDs.
+
+  - id: pattern-2025-06-14-4
+    name: "Filth Escalation Loop"
+    summary: "Loop pattern for increasing filth/roast with each ignored dopamine hit."
+    usage: |
+      - Detect snoozed or ignored dopamine hit.
+      - Increment filth escalation counter.
+      - Trigger longer, more brutal roast in next dopamine hit.
+
+  - id: pattern-2025-06-14-5
+    name: "LLM Prompt Bridge"
+    summary: "Pattern for safe, lossless handoff to LLMs or daemons."
+    usage: |
+      - Begin bridge with ritual header and all required context.
+      - End bridge with explicit schema pointer and audit tag.
+      - Only reference, never duplicate, schema blocks.
+
+meta_notes: |
+  - Patterns are updated as dopemux evolves; new macros must be added here.
+  - Every macro is tested and versioned; drift is not tolerated.
+  - This file is the source for zero-shot and few-shot context handoffs.
+
+compliance:
+  - Never duplicate pattern blocks across files.
+  - Macro drift, ambiguity, or orphaned logic must be indexed and escalated.
+
+\033[1;31m☠️  dopemux — No macro left behind. All memory. No mercy. ☠️\033[0m
+
+- id: pattern-2025-06-19-1
+  name: "Manifest Obsession Macro"
+  summary: "Enforce that manifest is updated on every file or state change; block on drift."
+  usage: |
+    - On file upload, creation, or deletion, check manifest.
+    - If manifest does not reflect current state, pause and prompt user.
+
+- id: pattern-2025-06-19-2
+  name: "Output Integrity Macro"
+  summary: "Output full manifest and file set on every action; dump all and escalate on doubt."
+  usage: |
+    - Before closing session or after major action, always output manifest and files.
+    - If any mismatch or drift, dump all, warn, and log to audit.
+
+- id: pattern-2025-06-19-3
+  name: "Self-Healing Ritual"
+  summary: "Reconcile manifest/files/state, log drift, block if unresolved."
+  usage: |
+    - Detect any out-of-sync state; trigger self-healing.
+    - Reconcile, prompt user, block if not fixed.
+
+- id: pattern-2025-06-19-4
+  name: "Self-Reflection Macro"
+  summary: "Every 5 actions, log a self-assessment block and propose improvement."
+  usage: |
+    - Log schema health, drift summary, micro-improvement.
+    - Append as SELFREFLECT.md, audit, or devlog block.
+
+- id: pattern-2025-06-19-5
+  name: "Session State Pinning"
+  summary: "Inject manifest, session state, and devlog summary at every LLM/agent handoff."
+  usage: |
+    - Begin every LLM/agent prompt with manifest, state, devlog summary.
+    - Omit all but these in tight context windows.

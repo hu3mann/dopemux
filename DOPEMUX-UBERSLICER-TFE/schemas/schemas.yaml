@@ -1,0 +1,90 @@
+# =============================
+# DØPEMÜX OMNIBUS SCHEMA METAFILE
+# v1.0 — ALL PROJECT SCHEMAS IN ONE FILE
+# =============================
+
+ultraslice:
+  block_id: ""
+  extraction_phase: ""
+  block_type: "ultraslice"
+  summary: ""
+  session_metadata:
+    timestamp: ""
+    source_file: ""
+    operator: ""
+  source: ""
+  tags: []
+  content: ""
+  map_refs: []
+  decisions: []
+  blockers: []
+  meta_validation: []
+  dopamine: ""
+  compliance_status: ""
+  extraction_type: ""
+  project_id: ""
+
+omnibus:
+  block_id: ""
+  extraction_phase: "phase-1"
+  block_type: "omnibus"
+  project_name: ""
+  summary: ""
+  session_metadata:
+    timestamp: ""
+    source_files: []
+    operator: ""
+  architecture: ""
+  file_manifest: []
+  major_features: []
+  actions: []
+  tags: []
+  content: ""
+  meta_validation: []
+
+devlog:
+  block_id: ""
+  block_type: "devlog"
+  action: ""
+  details: []
+  timestamp: ""
+  source: ""
+  tags: []
+  meta_validation: []
+
+artifact:
+  block_id: ""
+  block_type: "artifact"
+  file_path: ""
+  file_type: ""
+  size: 0
+  sha256: ""
+  modified: ""
+  tags: []
+  summary: ""
+  meta_validation: []
+
+prompt:
+  block_id: ""
+  block_type: "prompt"
+  prompt_type: ""
+  content: ""
+  timestamp: ""
+  source: ""
+  tags: []
+  meta_validation: []
+
+project_omnibus:
+  block_id: ""
+  block_type: "project-omnibus"
+  projects: []
+  overall_summary: ""
+  architecture: ""
+  file_manifests:
+  - project: ""
+    files: []
+  key_personnel: []
+  dependencies: []
+  actions: []
+  meta_validation: []
+  content: ""

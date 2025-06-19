@@ -5,7 +5,6 @@ def test_discover_plugins():
     names = {spec.name for spec in discover_plugins()}
     assert {"patch", "validate", "doctor"}.issubset(names)
 
-
 def test_slice_and_dump(tmp_path):
     input_file = tmp_path / "in.txt"
     input_file.write_text("one\n\ntwo")
