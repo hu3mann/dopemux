@@ -15,3 +15,6 @@ dist/
 .DS_Store
 DOPEMUX-UBERSLICER-TFE/prompts/allPromptFiles-uberslicer.md
 logs/
+
+# Banner archives
+dopemux-banners.zip
