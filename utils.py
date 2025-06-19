@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import yaml
 import os
 import datetime
@@ -6,6 +5,7 @@ from pathlib import Path
 import random
 
 # ─── CLI SUPPORTING UTILITIES ──────────────────────────────────────────────
+
 def load_config():
     """Load only the `dopemux` section from config.yaml at project root."""
     cfg_path = Path("config.yaml")
@@ -16,9 +16,11 @@ def load_config():
         raise KeyError("config.yaml missing top-level 'dopemux' key")
     return full_cfg["dopemux"]
 
+
 def colorize(text, style):
     """Placeholder: color your text by style."""
     return text
+
 
 def print_banner(cfg):
     """If `banner` is set in config, print it once at startup."""
@@ -26,36 +28,39 @@ def print_banner(cfg):
     if banner:
         print(banner)
 
+
 def dopamine_nudge(cfg):
     """Randomly emit one of the `nudges` defined in config."""
     nudges = cfg.get("nudges", [])
     if nudges:
         print(random.choice(nudges))
-# ────────────────────────────────────────────────────────────────────────────
 
-# Dev/audit logging helpers (unchanged)
+# ────────────────────────────────────────────────────────────────────────────
+# Dev/audit logging helpers
+
 DEVLOG_PATH = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-DEVLOG.txt"
-AUDIT_PATH  = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-AUDIT-ULTRA-RITUAL.txt"
+AUDIT_PATH = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-AUDIT-ULTRA-RITUAL.txt"
+
 
 def _append_block(path, entry):
-    entry['timestamp'] = datetime.datetime.utcnow().isoformat()
+    entry["timestamp"] = datetime.datetime.utcnow().isoformat()
     if not os.path.exists(path):
-        with open(path, "w") as f: yaml.dump({'entries': [entry]}, f)
+        with open(path, "w") as f:
+            yaml.dump({"entries": [entry]}, f)
     else:
-        with open(path) as f: data = yaml.safe_load(f) or {}
-        entries = data.get('entries', [])
+        with open(path) as f:
+            data = yaml.safe_load(f) or {}
+        entries = data.get("entries", [])
         entries.append(entry)
-        with open(path, "w") as f: yaml.dump({'entries': entries}, f)
+        with open(path, "w") as f:
+            yaml.dump({"entries": entries}, f)
+
 
 def log_dev(action, details=None):
-    block = {'action': action, 'details': details or []}
+    block = {"action": action, "details": details or []}
     _append_block(DEVLOG_PATH, block)
 
-def log_audit(level, summary):
-    block = {'level': level, 'summary': summary}
-    _append_block(AUDIT_PATH, block)
 
-# ─── GLOBAL CONFIG REFERENCE ────────────────────────────────────────────────
-=======
-from utils import *
->>>>>>> origin
+def log_audit(level, summary):
+    block = {"level": level, "summary": summary}
+    _append_block(AUDIT_PATH, block)

@@ -1,5 +1,5 @@
 import click
-from validator import validate_all
+from ...validator import validate_all
 
 @click.command()
 def run():
