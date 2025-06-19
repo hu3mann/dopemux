@@ -5,6 +5,7 @@ import os
 import yaml
 from pathlib import Path
 from utils import load_config, log_dev, log_audit
+from banners import on_block_success
 
 
 def create_patch_block(oldfile: str, newfile: str, reason: str) -> None:
@@ -62,3 +63,4 @@ def create_patch_block(oldfile: str, newfile: str, reason: str) -> None:
     log_dev("patch", [f"{oldfile} -> {newfile}", reason])
     log_audit("info", f"Patch block created: {outfile}")
     print(f"[OK] Patch block written to {outfile}")
+    on_block_success()
