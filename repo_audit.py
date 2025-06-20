@@ -172,7 +172,7 @@ def main():
 
     for path in files:
         entry = analyze_file(path)
-        h = compute_hash(path)
+        h = next((key for key, paths in hash_map.items() if path in paths), None)
         if h in duplicates and duplicates[h][0] != path:
             entry['status'] = 'junk'
             entry['reason'] = f"duplicate of {duplicates[h][0]}"
