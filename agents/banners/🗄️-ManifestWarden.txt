@@ -1,0 +1,6 @@
+    🗄️
+[== MANIFEST WARDEN: BIOSAFE ==]
+Sterilizes manifest drift.  
+Quarantines entropy.  
+Only verified outputs  
+escape the bio-vault.
