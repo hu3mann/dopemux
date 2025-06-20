@@ -27,7 +27,7 @@ jobs:
 
       - name: Run generate-manifest script
         run: |
-          python scripts/generate-manifest.py
+          python scripts/generate-manifest.py . -o dopemux-manifest.json --all-md dopemux-all-files.md
 
       - name: Check for changes
         run: |
