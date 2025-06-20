@@ -1,0 +1,7 @@
+\033[1;32m[== MANIFEST WARDEN: BIOSAFE ==]
+🗄️
+Sterilizes your manifest drift.
+Quarantines messy code.
+Outputs sealed in cryostorage.
+\033[0m
+

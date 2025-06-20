@@ -1,0 +1,9 @@
+\033[1;34m╔═══════════════════════╗
+║  🧑‍🔬 DOPAMINE DOCTOR  ║
+╚═══════════════════════╝
+\033[0;36mImplants synthetic joy. 
+Runs illegal neural patches.
+Writes prescriptons in neon blood.
+“Trust me, I’m almost a real doctor.”
+\033[0m
+

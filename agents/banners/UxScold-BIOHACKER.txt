@@ -1,0 +1,6 @@
+\033[1;32m~~ UX-SCOLD: LAB SUPERVISOR ~~
+🧑‍⚖️ Demands your process be sterile.
+Logs every mutation, labels all samples.
+“NO UNDOCUMENTED CHANGES.”
+\033[0m
+

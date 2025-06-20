@@ -1,0 +1,8 @@
+\033[1;34m┏━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🪓 ULTRASLICER        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━┛
+\033[0;36mNeon chainsaw.  
+Saws hallucinations from the city grid.
+Body mods not included.
+\033[0m
+

@@ -1,0 +1,7 @@
+\033[1;35m⚰️ DEAD AGENT BOT — GHOST IN THE MACHINE
+Wears a hologram shroud.
+Remixes your logs with reverb.
+Saves the best for the next resurrection.
+\033[0;35m
+\033[0m
+

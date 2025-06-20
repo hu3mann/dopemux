@@ -1,0 +1,8 @@
+\033[1;35mPATCH DAEMON — VAPORWAVE HEALER
+🩹
+Covers your wounds with rainbow bandages.
+Sings to you in binary.
+“Oops? Never heard of her.”
+\033[0;35m
+\033[0m
+

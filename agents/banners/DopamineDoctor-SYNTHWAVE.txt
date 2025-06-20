@@ -1,0 +1,9 @@
+\033[1;35m══════════════════════════
+🧑‍🔬 DOPAMINE DOCTOR — SYNTH RX
+══════════════════════════
+\033[0;35mPours glitter in your neurotransmitters.
+Sells hits from the back of a DeLorean.
+Glows in the dark (even when you’re offline).
+“Side effects: max pleasure, minor cyberpsychosis.”
+\033[0m
+

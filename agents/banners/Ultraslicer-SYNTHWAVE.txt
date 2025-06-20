@@ -1,0 +1,7 @@
+\033[1;35m╔═══ ULTRASLICER ═══╗
+🪓 CHOPS UP CONTEXT
+SPLATTERS NEON ALL OVER YOUR FILES
+“Slice fast, ask questions never.”
+\033[0;35m
+\033[0m
+

@@ -1,0 +1,7 @@
+\033[1;34m⎧ UX-SCOLD ⎫
+🧑‍⚖️ Ruthless workflow judge.
+Logs your every move,  
+whispers roast in the rain.
+\033[0;36m
+\033[0m
+
