@@ -4,9 +4,9 @@ Called via `dopemux doctor`.
 """
 
 from pathlib import Path
-import yaml
 import sys
 from banners import on_block_success, on_drift_or_error
+from utils import load_config
 
 # Match your config.yaml structure
 REQUIRED_CONFIG_KEYS = [
@@ -19,31 +19,11 @@ REQUIRED_CONFIG_KEYS = [
     "dopemux.auditor.block_review_tag",
 ]
 
-REQUIRED_DIRS = [
-    "tagged",
-    "tagged/patch",
-    "logs",
-    "schema",
-]
-
-REQUIRED_FILES = [
-    "schema/extraction-schema.json",
-    "config.yaml",
-]
-
 def warn(msg):
     print(f"❌  {msg}")
 
 def ok(msg):
     print(f"✅  {msg}")
-
-def load_cfg():
-    try:
-        with open("config.yaml") as f:
-            return yaml.safe_load(f)
-    except FileNotFoundError:
-        warn("config.yaml not found at repo root.")
-        sys.exit(1)
 
 def check_keys(cfg):
     # flatten nested dict to dot-keys
@@ -62,16 +42,26 @@ def check_keys(cfg):
         ok("All required config keys present.")
     return not missing
 
-def check_dirs():
-    missing = [d for d in REQUIRED_DIRS if not Path(d).exists()]
+def check_dirs(cfg):
+    required = [
+        cfg["paths"]["tagged"],
+        cfg["paths"]["patch_dir"],
+        Path(cfg["paths"]["devlog"]).parent,
+        Path(cfg["schema"]["file"]).parent,
+    ]
+    missing = [str(d) for d in required if not Path(d).exists()]
     if missing:
         warn(f"Missing directories: {', '.join(missing)}")
     else:
         ok("All required directories exist.")
     return not missing
 
-def check_files():
-    missing = [f for f in REQUIRED_FILES if not Path(f).exists()]
+def check_files(cfg):
+    required = [
+        cfg["schema"]["file"],
+        "config.yaml",
+    ]
+    missing = [str(f) for f in required if not Path(f).exists()]
     if missing:
         warn(f"Missing files: {', '.join(missing)}")
     else:
@@ -79,11 +69,12 @@ def check_files():
     return not missing
 
 def run_diagnosis() -> None:
-    cfg = load_cfg()
+    dopemux_cfg = load_config()
+    wrapper = {"dopemux": dopemux_cfg}
     results = [
-        check_keys(cfg),
-        check_dirs(),
-        check_files(),
+        check_keys(wrapper),
+        check_dirs(dopemux_cfg),
+        check_files(dopemux_cfg),
     ]
     if all(results):
         ok("Doctor check passed — repo looks healthy.")
