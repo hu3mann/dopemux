@@ -165,14 +165,16 @@ def main():
     files = get_all_files()
     audit_entries = []
     hash_map = defaultdict(list)
+    path_to_hash = {}
     for path in files:
         h = compute_hash(path)
         hash_map[h].append(path)
+        path_to_hash[path] = h
     duplicates = {h: ps for h, ps in hash_map.items() if len(ps) > 1}
 
     for path in files:
         entry = analyze_file(path)
-        h = next((key for key, paths in hash_map.items() if path in paths), None)
+        h = path_to_hash.get(path)
         if h in duplicates and duplicates[h][0] != path:
             entry['status'] = 'junk'
             entry['reason'] = f"duplicate of {duplicates[h][0]}"
