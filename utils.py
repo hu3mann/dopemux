@@ -1,92 +1,55 @@
-import yaml
-import os
-import datetime
+import os, random, datetime
 from pathlib import Path
-import random
+from typing import Any, Optional
+import yaml
 
-# ─── CLI SUPPORTING UTILITIES ──────────────────────────────────────────────
+# ─── CONFIG LOADER ─────────────────────────────────────────────────────────
+_CONFIG_CACHE: Optional[dict] = None
 
-def load_config():
-    """Load only the `dopemux` section from config.yaml at project root."""
+def load_config() -> dict:
+    """Memoised loader for the top-level `dopemux` section."""
+    global _CONFIG_CACHE
+    if _CONFIG_CACHE:
+        return _CONFIG_CACHE
     cfg_path = Path("config.yaml")
     if not cfg_path.exists():
-        raise FileNotFoundError("config.yaml not found")
-    full_cfg = yaml.safe_load(cfg_path.read_text())
-    if "dopemux" not in full_cfg:
-        raise KeyError("config.yaml missing top-level 'dopemux' key")
-    return full_cfg["dopemux"]
+        raise FileNotFoundError("config.yaml missing at project root")
+    root_cfg = yaml.safe_load(cfg_path.read_text()) or {}
+    try:
+        _CONFIG_CACHE = root_cfg["dopemux"]
+    except KeyError:
+        raise KeyError("config.yaml missing top-level ‘dopemux’ key")
+    return _CONFIG_CACHE
 
-ANSI_CODES = {
-    "black": "\033[30m",
-    "red": "\033[31m",
-    "green": "\033[32m",
-    "yellow": "\033[33m",
-    "blue": "\033[34m",
-    "magenta": "\033[35m",
-    "cyan": "\033[36m",
-    "white": "\033[37m",
-    "reset": "\033[0m",
-    "bold": "\033[1m",
-}
-
-
+# ─── TERMINAL NICETIES ─────────────────────────────────────────────────────
 def colorize(text: str, style: str) -> str:
-    """Return ``text`` wrapped in ANSI codes for ``style`` if known."""
-    code = ANSI_CODES.get(style)
-    if not code:
-        return text
-    return f"{code}{text}{ANSI_CODES['reset']}"
+    colors = {"dopamine": "\033[96m", "filth": "\033[95m", "reset": "\033[0m"}
+    return f"{colors.get(style,'')}{text}{colors['reset']}"
 
-def print_banner(cfg):
-    """If `banner` is set in config, print it once at startup."""
-    banner = cfg.get("banner")
-    if banner:
-        color = cfg.get("colors", {}).get("dopamine")
-        if color:
-            banner = colorize(banner, color)
-        print(banner)
+def print_banner() -> None:
+    cfg = load_config()
+    print(colorize(cfg.get("banner", "💊 DØPEMÜX — Terminal Dopamine"), "dopamine"))
 
-
-def dopamine_nudge(cfg):
-    """Randomly emit one of the `nudges` defined in config."""
-    nudges = cfg.get("nudges", [])
+def dopamine_nudge() -> None:
+    nudges = load_config().get("nudges", [])
     if nudges:
+        print(random.choice(nudges))
 
-        msg = random.choice(nudges)
-        color = cfg.get("colors", {}).get("filth")
-        if color:
-            msg = colorize(msg, color)
-        print(msg)
+# ─── DEV / AUDIT LOGGING ───────────────────────────────────────────────────
+DEVLOG_PATH = Path(load_config()["paths"]["devlog"])
+AUDIT_PATH  = Path(load_config()["paths"]["audit"])
 
-# ────────────────────────────────────────────────────────────────────────────
-# Dev/audit logging helpers
-
-DEVLOG_PATH = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-DEVLOG.txt"
-AUDIT_PATH = "💊DØPEMÜX-☠️UBERSLICER☠️—TFE-AUDIT-ULTRA-RITUAL.txt"
-
-
-def _append_block(path, entry):
+def _append(path: Path, entry: dict[str, Any]) -> None:
     entry["timestamp"] = datetime.datetime.utcnow().isoformat()
-    if not os.path.exists(path):
-        with open(path, "w") as f:
-            yaml.dump({"entries": [entry]}, f)
+    if path.exists():
+        data = yaml.safe_load(path.read_text()) or {"entries": []}
     else:
-        with open(path) as f:
-            data = yaml.safe_load(f) or {}
-        entries = data.get("entries", [])
-        entries.append(entry)
-        with open(path, "w") as f:
-            yaml.dump({"entries": entries}, f)
+        data = {"entries": []}
+    data["entries"].append(entry)
+    path.write_text(yaml.dump(data, sort_keys=False))
 
+def log_dev(action: str, details: list[str] | None = None) -> None:
+    _append(DEVLOG_PATH, {"action": action, "details": details or []})
 
-def log_dev(action, details=None):
-    block = {"action": action, "details": details or []}
-    _append_block(DEVLOG_PATH, block)
-
-
-def log_audit(level, summary):
-    block = {"level": level, "summary": summary}
-    _append_block(AUDIT_PATH, block)
-
-# ─── GLOBAL CONFIG REFERENCE ────────────────────────────────────────────────
-CFG = load_config()
+def log_audit(level: str, summary: str) -> None:
+    _append(AUDIT_PATH, {"level": level, "summary": summary})

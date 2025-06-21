@@ -1,14 +1,12 @@
 import click
-from utils import load_config, print_banner, dopamine_nudge
+from utils import print_banner, dopamine_nudge
 from uberslicer import load_plugins
 from banners import on_boot
 
 @click.group()
 def cli():
-    cfg = load_config()
-    on_boot()
-    print_banner(cfg)
-    dopamine_nudge(cfg)
+    print_banner()
+    dopamine_nudge()
 
 for name, cmd in load_plugins():
     cli.add_command(cmd, name)
